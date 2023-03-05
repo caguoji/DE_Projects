@@ -1,0 +1,58 @@
+Start download data
+WARNING: timestamping does nothing in combination with -O. See the manual
+for details.
+
+--2023-03-02 18:13:09--  https://climate.weather.gc.ca/climate_data/bulk_data_e.html?format=csv&stationID=48549&Year=2020&Month=2&Day=14&timeframe=1&submit=%20Download+Data
+Resolving climate.weather.gc.ca (climate.weather.gc.ca)... 205.189.10.46
+Connecting to climate.weather.gc.ca (climate.weather.gc.ca)|205.189.10.46|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/force-download]
+Saving to: ‘/home/naijadev/Projects/Toronto/Data_In/2020.csv’
+
+     0K .......... .......... .......... .......... ..........  249K
+    50K .......... .......... .......... .......... ..........  408K
+   100K .......... .......... .......                          20.9M=0.3s
+
+2023-03-02 18:13:10 (393 KB/s) - ‘/home/naijadev/Projects/Toronto/Data_In/2020.csv’ saved [130712]
+
+WARNING: timestamping does nothing in combination with -O. See the manual
+for details.
+
+--2023-03-02 18:13:10--  https://climate.weather.gc.ca/climate_data/bulk_data_e.html?format=csv&stationID=48549&Year=2021&Month=2&Day=14&timeframe=1&submit=%20Download+Data
+Resolving climate.weather.gc.ca (climate.weather.gc.ca)... 205.189.10.46
+Connecting to climate.weather.gc.ca (climate.weather.gc.ca)|205.189.10.46|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/force-download]
+Saving to: ‘/home/naijadev/Projects/Toronto/Data_In/2021.csv’
+
+     0K .......... .......... .......... .......... ..........  388K
+    50K .......... .......... .......... .......... ..........  773K
+   100K .......... .......... ...                              39.9M=0.2s
+
+2023-03-02 18:13:11 (638 KB/s) - ‘/home/naijadev/Projects/Toronto/Data_In/2021.csv’ saved [126714]
+
+WARNING: timestamping does nothing in combination with -O. See the manual
+for details.
+
+--2023-03-02 18:13:11--  https://climate.weather.gc.ca/climate_data/bulk_data_e.html?format=csv&stationID=48549&Year=2022&Month=2&Day=14&timeframe=1&submit=%20Download+Data
+Resolving climate.weather.gc.ca (climate.weather.gc.ca)... 205.189.10.46
+Connecting to climate.weather.gc.ca (climate.weather.gc.ca)|205.189.10.46|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/force-download]
+Saving to: ‘/home/naijadev/Projects/Toronto/Data_In/2022.csv’
+
+     0K .......... .......... .......... .......... ..........  432K
+    50K .......... .......... .......... .......... ..........  866K
+   100K .......... .......... ...                              74.2M=0.2s
+
+2023-03-02 18:13:13 (712 KB/s) - ‘/home/naijadev/Projects/Toronto/Data_In/2022.csv’ saved [126636]
+
+shell_script.sh: line 47: [0: command not found
+Start to run Python Script
+Retrieving this file /home/naijadev/Projects/Toronto/Data_In/2021.csv
+Retrieving this file /home/naijadev/Projects/Toronto/Data_In/2020.csv
+Retrieving this file /home/naijadev/Projects/Toronto/Data_In/2022.csv
+Concatenating the files
+Saving the output
+shell_script.sh: line 65: [0: command not found
+PROGRAM SUCCEEDED
