@@ -22,7 +22,6 @@ download data with shell command
 concatenate data to one file with the python script
 save output file in the python script
 print out SUCCESS with shell command.
-create a repository in github, and upload your file to the repo with git.
 The Shell script will call the Python Script to finish the Python work.
 
 5. Specification Detail
