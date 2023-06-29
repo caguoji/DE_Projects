@@ -1,4 +1,4 @@
-!/bin/bash
+#!/bin/bash
 
 ###############################################
 # Part 1: SET DEFAULT VARIABLES

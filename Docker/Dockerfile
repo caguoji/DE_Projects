@@ -27,3 +27,9 @@ CMD tail -f /dev/null
 # -d --> detached mode, if not detached the process happens in current terminal not in background
 # -v --> needs 2 path names, 1st is path for virtual machine, 2nd is path for container,  
 # image name --> name tagged when created image
+
+#running the python script
+# docker exec
+# -it (interactive mode)
+# containerid
+# command want to run (python3 py_script.py)
