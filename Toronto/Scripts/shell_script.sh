@@ -14,7 +14,7 @@ export INPUT_FOLDER=${BASE_FOLDER}'/Data_In'
 export OUT_FOLDER=${BASE_FOLDER}'/Data_Out'
 export LOGDIR=${BASE_FOLDER}'/Logs'
 export SHELL_SCRIPT_NAME='shell_script'
-export LOG_FILE=${LOGDIR}/${SHELL_SCRIPT_NAME}_${filenametime1}.log
+#export LOG_FILE=${LOGDIR}/${SHELL_SCRIPT_NAME}_${filenametime1}.log
 
 
 
