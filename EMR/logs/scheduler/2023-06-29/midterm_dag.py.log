@@ -1,0 +1,286 @@
+[2023-06-29T23:47:00.519+0000] {processor.py:156} INFO - Started process (PID=31) to work on /opt/airflow/dags/midterm_dag.py
+[2023-06-29T23:47:00.520+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/midterm_dag.py for tasks to queue
+[2023-06-29T23:47:00.521+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:47:00.521+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/midterm_dag.py
+[2023-06-29T23:47:00.549+0000] {logging_mixin.py:149} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:429 UserWarning: The parameter waiter_countdown has been deprecated to standardize naming conventions.  Please use waiter_max_attempts instead.  In the future this will default to None and defer to the waiter's default value.
+[2023-06-29T23:47:00.550+0000] {logging_mixin.py:149} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:429 UserWarning: The parameter waiter_check_interval_seconds has been deprecated to standardize naming conventions.  Please use waiter_delay instead.  In the future this will default to None and defer to the waiter's default value.
+[2023-06-29T23:47:00.552+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:47:00.552+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrCreateJobFlowOperator): create_job>, add_steps already registered for DAG: midterm_dag
+[2023-06-29T23:47:00.553+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:47:00.553+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrAddStepsOperator): add_steps>, create_job already registered for DAG: midterm_dag
+[2023-06-29T23:47:00.576+0000] {processor.py:809} INFO - DAG(s) dict_keys(['midterm_dag']) retrieved from /opt/airflow/dags/midterm_dag.py
+[2023-06-29T23:47:00.955+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:47:00.954+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-29T23:47:01.093+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:47:01.091+0000] {dag.py:3490} INFO - Setting next_dagrun for midterm_dag to None, run_after=None
+[2023-06-29T23:47:01.191+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/midterm_dag.py took 0.709 seconds
+[2023-06-29T23:47:31.368+0000] {processor.py:156} INFO - Started process (PID=88) to work on /opt/airflow/dags/midterm_dag.py
+[2023-06-29T23:47:31.370+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/midterm_dag.py for tasks to queue
+[2023-06-29T23:47:31.371+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:47:31.371+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/midterm_dag.py
+[2023-06-29T23:47:31.385+0000] {logging_mixin.py:149} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:429 UserWarning: The parameter waiter_countdown has been deprecated to standardize naming conventions.  Please use waiter_max_attempts instead.  In the future this will default to None and defer to the waiter's default value.
+[2023-06-29T23:47:31.386+0000] {logging_mixin.py:149} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:429 UserWarning: The parameter waiter_check_interval_seconds has been deprecated to standardize naming conventions.  Please use waiter_delay instead.  In the future this will default to None and defer to the waiter's default value.
+[2023-06-29T23:47:31.389+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:47:31.389+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrCreateJobFlowOperator): create_job>, add_steps already registered for DAG: midterm_dag
+[2023-06-29T23:47:31.389+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:47:31.389+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrAddStepsOperator): add_steps>, create_job already registered for DAG: midterm_dag
+[2023-06-29T23:47:31.393+0000] {processor.py:809} INFO - DAG(s) dict_keys(['midterm_dag']) retrieved from /opt/airflow/dags/midterm_dag.py
+[2023-06-29T23:47:31.428+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:47:31.427+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-29T23:47:31.461+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:47:31.461+0000] {dag.py:3490} INFO - Setting next_dagrun for midterm_dag to None, run_after=None
+[2023-06-29T23:47:31.494+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/midterm_dag.py took 0.130 seconds
+[2023-06-29T23:48:01.707+0000] {processor.py:156} INFO - Started process (PID=145) to work on /opt/airflow/dags/midterm_dag.py
+[2023-06-29T23:48:01.711+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/midterm_dag.py for tasks to queue
+[2023-06-29T23:48:01.712+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:48:01.711+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/midterm_dag.py
+[2023-06-29T23:48:01.725+0000] {logging_mixin.py:149} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:429 UserWarning: The parameter waiter_countdown has been deprecated to standardize naming conventions.  Please use waiter_max_attempts instead.  In the future this will default to None and defer to the waiter's default value.
+[2023-06-29T23:48:01.726+0000] {logging_mixin.py:149} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:429 UserWarning: The parameter waiter_check_interval_seconds has been deprecated to standardize naming conventions.  Please use waiter_delay instead.  In the future this will default to None and defer to the waiter's default value.
+[2023-06-29T23:48:01.729+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:48:01.729+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrCreateJobFlowOperator): create_job>, add_steps already registered for DAG: midterm_dag
+[2023-06-29T23:48:01.729+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:48:01.729+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrAddStepsOperator): add_steps>, create_job already registered for DAG: midterm_dag
+[2023-06-29T23:48:01.734+0000] {processor.py:809} INFO - DAG(s) dict_keys(['midterm_dag']) retrieved from /opt/airflow/dags/midterm_dag.py
+[2023-06-29T23:48:01.771+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:48:01.771+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-29T23:48:01.806+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:48:01.806+0000] {dag.py:3490} INFO - Setting next_dagrun for midterm_dag to None, run_after=None
+[2023-06-29T23:48:01.829+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/midterm_dag.py took 0.126 seconds
+[2023-06-29T23:48:32.156+0000] {processor.py:156} INFO - Started process (PID=202) to work on /opt/airflow/dags/midterm_dag.py
+[2023-06-29T23:48:32.157+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/midterm_dag.py for tasks to queue
+[2023-06-29T23:48:32.158+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:48:32.158+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/midterm_dag.py
+[2023-06-29T23:48:32.172+0000] {logging_mixin.py:149} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:429 UserWarning: The parameter waiter_countdown has been deprecated to standardize naming conventions.  Please use waiter_max_attempts instead.  In the future this will default to None and defer to the waiter's default value.
+[2023-06-29T23:48:32.173+0000] {logging_mixin.py:149} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:429 UserWarning: The parameter waiter_check_interval_seconds has been deprecated to standardize naming conventions.  Please use waiter_delay instead.  In the future this will default to None and defer to the waiter's default value.
+[2023-06-29T23:48:32.175+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:48:32.175+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrCreateJobFlowOperator): create_job>, add_steps already registered for DAG: midterm_dag
+[2023-06-29T23:48:32.176+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:48:32.176+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrAddStepsOperator): add_steps>, create_job already registered for DAG: midterm_dag
+[2023-06-29T23:48:32.180+0000] {processor.py:809} INFO - DAG(s) dict_keys(['midterm_dag']) retrieved from /opt/airflow/dags/midterm_dag.py
+[2023-06-29T23:48:32.213+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:48:32.213+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-29T23:48:32.246+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:48:32.246+0000] {dag.py:3490} INFO - Setting next_dagrun for midterm_dag to None, run_after=None
+[2023-06-29T23:48:32.268+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/midterm_dag.py took 0.116 seconds
+[2023-06-29T23:49:02.390+0000] {processor.py:156} INFO - Started process (PID=259) to work on /opt/airflow/dags/midterm_dag.py
+[2023-06-29T23:49:02.399+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/midterm_dag.py for tasks to queue
+[2023-06-29T23:49:02.400+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:49:02.400+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/midterm_dag.py
+[2023-06-29T23:49:02.413+0000] {logging_mixin.py:149} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:429 UserWarning: The parameter waiter_countdown has been deprecated to standardize naming conventions.  Please use waiter_max_attempts instead.  In the future this will default to None and defer to the waiter's default value.
+[2023-06-29T23:49:02.414+0000] {logging_mixin.py:149} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:429 UserWarning: The parameter waiter_check_interval_seconds has been deprecated to standardize naming conventions.  Please use waiter_delay instead.  In the future this will default to None and defer to the waiter's default value.
+[2023-06-29T23:49:02.417+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:49:02.417+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrCreateJobFlowOperator): create_job>, add_steps already registered for DAG: midterm_dag
+[2023-06-29T23:49:02.417+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:49:02.417+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrAddStepsOperator): add_steps>, create_job already registered for DAG: midterm_dag
+[2023-06-29T23:49:02.421+0000] {processor.py:809} INFO - DAG(s) dict_keys(['midterm_dag']) retrieved from /opt/airflow/dags/midterm_dag.py
+[2023-06-29T23:49:02.453+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:49:02.453+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-29T23:49:02.488+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:49:02.488+0000] {dag.py:3490} INFO - Setting next_dagrun for midterm_dag to None, run_after=None
+[2023-06-29T23:49:02.510+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/midterm_dag.py took 0.124 seconds
+[2023-06-29T23:49:32.894+0000] {processor.py:156} INFO - Started process (PID=317) to work on /opt/airflow/dags/midterm_dag.py
+[2023-06-29T23:49:32.896+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/midterm_dag.py for tasks to queue
+[2023-06-29T23:49:32.897+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:49:32.897+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/midterm_dag.py
+[2023-06-29T23:49:32.910+0000] {logging_mixin.py:149} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:429 UserWarning: The parameter waiter_countdown has been deprecated to standardize naming conventions.  Please use waiter_max_attempts instead.  In the future this will default to None and defer to the waiter's default value.
+[2023-06-29T23:49:32.911+0000] {logging_mixin.py:149} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:429 UserWarning: The parameter waiter_check_interval_seconds has been deprecated to standardize naming conventions.  Please use waiter_delay instead.  In the future this will default to None and defer to the waiter's default value.
+[2023-06-29T23:49:32.914+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:49:32.914+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrCreateJobFlowOperator): create_job>, add_steps already registered for DAG: midterm_dag
+[2023-06-29T23:49:32.914+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:49:32.914+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrAddStepsOperator): add_steps>, create_job already registered for DAG: midterm_dag
+[2023-06-29T23:49:32.919+0000] {processor.py:809} INFO - DAG(s) dict_keys(['midterm_dag']) retrieved from /opt/airflow/dags/midterm_dag.py
+[2023-06-29T23:49:32.951+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:49:32.950+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-29T23:49:32.983+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:49:32.983+0000] {dag.py:3490} INFO - Setting next_dagrun for midterm_dag to None, run_after=None
+[2023-06-29T23:49:33.004+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/midterm_dag.py took 0.113 seconds
+[2023-06-29T23:50:03.581+0000] {processor.py:156} INFO - Started process (PID=373) to work on /opt/airflow/dags/midterm_dag.py
+[2023-06-29T23:50:03.582+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/midterm_dag.py for tasks to queue
+[2023-06-29T23:50:03.583+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:50:03.583+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/midterm_dag.py
+[2023-06-29T23:50:03.596+0000] {logging_mixin.py:149} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:429 UserWarning: The parameter waiter_countdown has been deprecated to standardize naming conventions.  Please use waiter_max_attempts instead.  In the future this will default to None and defer to the waiter's default value.
+[2023-06-29T23:50:03.598+0000] {logging_mixin.py:149} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:429 UserWarning: The parameter waiter_check_interval_seconds has been deprecated to standardize naming conventions.  Please use waiter_delay instead.  In the future this will default to None and defer to the waiter's default value.
+[2023-06-29T23:50:03.600+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:50:03.600+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrCreateJobFlowOperator): create_job>, add_steps already registered for DAG: midterm_dag
+[2023-06-29T23:50:03.600+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:50:03.600+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrAddStepsOperator): add_steps>, create_job already registered for DAG: midterm_dag
+[2023-06-29T23:50:03.605+0000] {processor.py:809} INFO - DAG(s) dict_keys(['midterm_dag']) retrieved from /opt/airflow/dags/midterm_dag.py
+[2023-06-29T23:50:03.638+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:50:03.637+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-29T23:50:03.673+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:50:03.673+0000] {dag.py:3490} INFO - Setting next_dagrun for midterm_dag to None, run_after=None
+[2023-06-29T23:50:03.696+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/midterm_dag.py took 0.120 seconds
+[2023-06-29T23:50:33.793+0000] {processor.py:156} INFO - Started process (PID=430) to work on /opt/airflow/dags/midterm_dag.py
+[2023-06-29T23:50:33.794+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/midterm_dag.py for tasks to queue
+[2023-06-29T23:50:33.794+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:50:33.794+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/midterm_dag.py
+[2023-06-29T23:50:33.824+0000] {logging_mixin.py:149} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:429 UserWarning: The parameter waiter_countdown has been deprecated to standardize naming conventions.  Please use waiter_max_attempts instead.  In the future this will default to None and defer to the waiter's default value.
+[2023-06-29T23:50:33.825+0000] {logging_mixin.py:149} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:429 UserWarning: The parameter waiter_check_interval_seconds has been deprecated to standardize naming conventions.  Please use waiter_delay instead.  In the future this will default to None and defer to the waiter's default value.
+[2023-06-29T23:50:33.836+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:50:33.836+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrCreateJobFlowOperator): create_job>, add_steps already registered for DAG: midterm_dag
+[2023-06-29T23:50:33.836+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:50:33.836+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrAddStepsOperator): add_steps>, create_job already registered for DAG: midterm_dag
+[2023-06-29T23:50:33.841+0000] {processor.py:809} INFO - DAG(s) dict_keys(['midterm_dag']) retrieved from /opt/airflow/dags/midterm_dag.py
+[2023-06-29T23:50:33.883+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:50:33.883+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-29T23:50:33.918+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:50:33.918+0000] {dag.py:3490} INFO - Setting next_dagrun for midterm_dag to None, run_after=None
+[2023-06-29T23:50:33.966+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/midterm_dag.py took 0.182 seconds
+[2023-06-29T23:51:04.409+0000] {processor.py:156} INFO - Started process (PID=487) to work on /opt/airflow/dags/midterm_dag.py
+[2023-06-29T23:51:04.410+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/midterm_dag.py for tasks to queue
+[2023-06-29T23:51:04.411+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:51:04.411+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/midterm_dag.py
+[2023-06-29T23:51:04.432+0000] {logging_mixin.py:149} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:429 UserWarning: The parameter waiter_countdown has been deprecated to standardize naming conventions.  Please use waiter_max_attempts instead.  In the future this will default to None and defer to the waiter's default value.
+[2023-06-29T23:51:04.433+0000] {logging_mixin.py:149} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:429 UserWarning: The parameter waiter_check_interval_seconds has been deprecated to standardize naming conventions.  Please use waiter_delay instead.  In the future this will default to None and defer to the waiter's default value.
+[2023-06-29T23:51:04.436+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:51:04.436+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrCreateJobFlowOperator): create_job>, add_steps already registered for DAG: midterm_dag
+[2023-06-29T23:51:04.436+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:51:04.436+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrAddStepsOperator): add_steps>, create_job already registered for DAG: midterm_dag
+[2023-06-29T23:51:04.454+0000] {processor.py:809} INFO - DAG(s) dict_keys(['midterm_dag']) retrieved from /opt/airflow/dags/midterm_dag.py
+[2023-06-29T23:51:04.557+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:51:04.557+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-29T23:51:04.624+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:51:04.623+0000] {dag.py:3490} INFO - Setting next_dagrun for midterm_dag to None, run_after=None
+[2023-06-29T23:51:04.652+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/midterm_dag.py took 0.255 seconds
+[2023-06-29T23:51:34.812+0000] {processor.py:156} INFO - Started process (PID=544) to work on /opt/airflow/dags/midterm_dag.py
+[2023-06-29T23:51:34.813+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/midterm_dag.py for tasks to queue
+[2023-06-29T23:51:34.814+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:51:34.814+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/midterm_dag.py
+[2023-06-29T23:51:34.828+0000] {logging_mixin.py:149} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:429 UserWarning: The parameter waiter_countdown has been deprecated to standardize naming conventions.  Please use waiter_max_attempts instead.  In the future this will default to None and defer to the waiter's default value.
+[2023-06-29T23:51:34.829+0000] {logging_mixin.py:149} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:429 UserWarning: The parameter waiter_check_interval_seconds has been deprecated to standardize naming conventions.  Please use waiter_delay instead.  In the future this will default to None and defer to the waiter's default value.
+[2023-06-29T23:51:34.832+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:51:34.832+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrCreateJobFlowOperator): create_job>, add_steps already registered for DAG: midterm_dag
+[2023-06-29T23:51:34.833+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:51:34.833+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrAddStepsOperator): add_steps>, create_job already registered for DAG: midterm_dag
+[2023-06-29T23:51:34.837+0000] {processor.py:809} INFO - DAG(s) dict_keys(['midterm_dag']) retrieved from /opt/airflow/dags/midterm_dag.py
+[2023-06-29T23:51:34.872+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:51:34.871+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-29T23:51:34.906+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:51:34.906+0000] {dag.py:3490} INFO - Setting next_dagrun for midterm_dag to None, run_after=None
+[2023-06-29T23:51:34.935+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/midterm_dag.py took 0.127 seconds
+[2023-06-29T23:52:05.277+0000] {processor.py:156} INFO - Started process (PID=601) to work on /opt/airflow/dags/midterm_dag.py
+[2023-06-29T23:52:05.287+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/midterm_dag.py for tasks to queue
+[2023-06-29T23:52:05.288+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:52:05.287+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/midterm_dag.py
+[2023-06-29T23:52:05.321+0000] {logging_mixin.py:149} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:429 UserWarning: The parameter waiter_countdown has been deprecated to standardize naming conventions.  Please use waiter_max_attempts instead.  In the future this will default to None and defer to the waiter's default value.
+[2023-06-29T23:52:05.332+0000] {logging_mixin.py:149} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:429 UserWarning: The parameter waiter_check_interval_seconds has been deprecated to standardize naming conventions.  Please use waiter_delay instead.  In the future this will default to None and defer to the waiter's default value.
+[2023-06-29T23:52:05.343+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:52:05.334+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrCreateJobFlowOperator): create_job>, add_steps already registered for DAG: midterm_dag
+[2023-06-29T23:52:05.343+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:52:05.343+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrAddStepsOperator): add_steps>, create_job already registered for DAG: midterm_dag
+[2023-06-29T23:52:05.360+0000] {processor.py:809} INFO - DAG(s) dict_keys(['midterm_dag']) retrieved from /opt/airflow/dags/midterm_dag.py
+[2023-06-29T23:52:05.475+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:52:05.475+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-29T23:52:05.579+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:52:05.579+0000] {dag.py:3490} INFO - Setting next_dagrun for midterm_dag to None, run_after=None
+[2023-06-29T23:52:05.641+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/midterm_dag.py took 0.368 seconds
+[2023-06-29T23:52:35.954+0000] {processor.py:156} INFO - Started process (PID=658) to work on /opt/airflow/dags/midterm_dag.py
+[2023-06-29T23:52:35.961+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/midterm_dag.py for tasks to queue
+[2023-06-29T23:52:35.962+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:52:35.962+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/midterm_dag.py
+[2023-06-29T23:52:35.988+0000] {logging_mixin.py:149} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:429 UserWarning: The parameter waiter_countdown has been deprecated to standardize naming conventions.  Please use waiter_max_attempts instead.  In the future this will default to None and defer to the waiter's default value.
+[2023-06-29T23:52:35.992+0000] {logging_mixin.py:149} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:429 UserWarning: The parameter waiter_check_interval_seconds has been deprecated to standardize naming conventions.  Please use waiter_delay instead.  In the future this will default to None and defer to the waiter's default value.
+[2023-06-29T23:52:35.996+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:52:35.996+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrCreateJobFlowOperator): create_job>, add_steps already registered for DAG: midterm_dag
+[2023-06-29T23:52:35.999+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:52:35.999+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrAddStepsOperator): add_steps>, create_job already registered for DAG: midterm_dag
+[2023-06-29T23:52:36.004+0000] {processor.py:809} INFO - DAG(s) dict_keys(['midterm_dag']) retrieved from /opt/airflow/dags/midterm_dag.py
+[2023-06-29T23:52:36.065+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:52:36.064+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-29T23:52:36.131+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:52:36.131+0000] {dag.py:3490} INFO - Setting next_dagrun for midterm_dag to None, run_after=None
+[2023-06-29T23:52:36.169+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/midterm_dag.py took 0.218 seconds
+[2023-06-29T23:53:06.434+0000] {processor.py:156} INFO - Started process (PID=715) to work on /opt/airflow/dags/midterm_dag.py
+[2023-06-29T23:53:06.435+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/midterm_dag.py for tasks to queue
+[2023-06-29T23:53:06.435+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:53:06.435+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/midterm_dag.py
+[2023-06-29T23:53:06.449+0000] {logging_mixin.py:149} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:429 UserWarning: The parameter waiter_countdown has been deprecated to standardize naming conventions.  Please use waiter_max_attempts instead.  In the future this will default to None and defer to the waiter's default value.
+[2023-06-29T23:53:06.451+0000] {logging_mixin.py:149} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:429 UserWarning: The parameter waiter_check_interval_seconds has been deprecated to standardize naming conventions.  Please use waiter_delay instead.  In the future this will default to None and defer to the waiter's default value.
+[2023-06-29T23:53:06.453+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:53:06.453+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrCreateJobFlowOperator): create_job>, add_steps already registered for DAG: midterm_dag
+[2023-06-29T23:53:06.454+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:53:06.454+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrAddStepsOperator): add_steps>, create_job already registered for DAG: midterm_dag
+[2023-06-29T23:53:06.459+0000] {processor.py:809} INFO - DAG(s) dict_keys(['midterm_dag']) retrieved from /opt/airflow/dags/midterm_dag.py
+[2023-06-29T23:53:06.498+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:53:06.497+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-29T23:53:06.533+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:53:06.533+0000] {dag.py:3490} INFO - Setting next_dagrun for midterm_dag to None, run_after=None
+[2023-06-29T23:53:06.556+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/midterm_dag.py took 0.127 seconds
+[2023-06-29T23:53:37.044+0000] {processor.py:156} INFO - Started process (PID=772) to work on /opt/airflow/dags/midterm_dag.py
+[2023-06-29T23:53:37.045+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/midterm_dag.py for tasks to queue
+[2023-06-29T23:53:37.046+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:53:37.046+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/midterm_dag.py
+[2023-06-29T23:53:37.062+0000] {logging_mixin.py:149} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:429 UserWarning: The parameter waiter_countdown has been deprecated to standardize naming conventions.  Please use waiter_max_attempts instead.  In the future this will default to None and defer to the waiter's default value.
+[2023-06-29T23:53:37.063+0000] {logging_mixin.py:149} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:429 UserWarning: The parameter waiter_check_interval_seconds has been deprecated to standardize naming conventions.  Please use waiter_delay instead.  In the future this will default to None and defer to the waiter's default value.
+[2023-06-29T23:53:37.066+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:53:37.066+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrCreateJobFlowOperator): create_job>, add_steps already registered for DAG: midterm_dag
+[2023-06-29T23:53:37.066+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:53:37.066+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrAddStepsOperator): add_steps>, create_job already registered for DAG: midterm_dag
+[2023-06-29T23:53:37.071+0000] {processor.py:809} INFO - DAG(s) dict_keys(['midterm_dag']) retrieved from /opt/airflow/dags/midterm_dag.py
+[2023-06-29T23:53:37.110+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:53:37.109+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-29T23:53:37.143+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:53:37.143+0000] {dag.py:3490} INFO - Setting next_dagrun for midterm_dag to None, run_after=None
+[2023-06-29T23:53:37.165+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/midterm_dag.py took 0.125 seconds
+[2023-06-29T23:54:07.247+0000] {processor.py:156} INFO - Started process (PID=830) to work on /opt/airflow/dags/midterm_dag.py
+[2023-06-29T23:54:07.248+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/midterm_dag.py for tasks to queue
+[2023-06-29T23:54:07.248+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:54:07.248+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/midterm_dag.py
+[2023-06-29T23:54:07.263+0000] {logging_mixin.py:149} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:429 UserWarning: The parameter waiter_countdown has been deprecated to standardize naming conventions.  Please use waiter_max_attempts instead.  In the future this will default to None and defer to the waiter's default value.
+[2023-06-29T23:54:07.264+0000] {logging_mixin.py:149} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:429 UserWarning: The parameter waiter_check_interval_seconds has been deprecated to standardize naming conventions.  Please use waiter_delay instead.  In the future this will default to None and defer to the waiter's default value.
+[2023-06-29T23:54:07.267+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:54:07.266+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrCreateJobFlowOperator): create_job>, add_steps already registered for DAG: midterm_dag
+[2023-06-29T23:54:07.267+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:54:07.267+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrAddStepsOperator): add_steps>, create_job already registered for DAG: midterm_dag
+[2023-06-29T23:54:07.272+0000] {processor.py:809} INFO - DAG(s) dict_keys(['midterm_dag']) retrieved from /opt/airflow/dags/midterm_dag.py
+[2023-06-29T23:54:07.308+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:54:07.308+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-29T23:54:07.343+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:54:07.342+0000] {dag.py:3490} INFO - Setting next_dagrun for midterm_dag to None, run_after=None
+[2023-06-29T23:54:07.365+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/midterm_dag.py took 0.123 seconds
+[2023-06-29T23:54:37.544+0000] {processor.py:156} INFO - Started process (PID=887) to work on /opt/airflow/dags/midterm_dag.py
+[2023-06-29T23:54:37.549+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/midterm_dag.py for tasks to queue
+[2023-06-29T23:54:37.549+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:54:37.549+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/midterm_dag.py
+[2023-06-29T23:54:37.578+0000] {logging_mixin.py:149} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:429 UserWarning: The parameter waiter_countdown has been deprecated to standardize naming conventions.  Please use waiter_max_attempts instead.  In the future this will default to None and defer to the waiter's default value.
+[2023-06-29T23:54:37.580+0000] {logging_mixin.py:149} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:429 UserWarning: The parameter waiter_check_interval_seconds has been deprecated to standardize naming conventions.  Please use waiter_delay instead.  In the future this will default to None and defer to the waiter's default value.
+[2023-06-29T23:54:37.588+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:54:37.588+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrCreateJobFlowOperator): create_job>, add_steps already registered for DAG: midterm_dag
+[2023-06-29T23:54:37.588+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:54:37.588+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrAddStepsOperator): add_steps>, create_job already registered for DAG: midterm_dag
+[2023-06-29T23:54:37.597+0000] {processor.py:809} INFO - DAG(s) dict_keys(['midterm_dag']) retrieved from /opt/airflow/dags/midterm_dag.py
+[2023-06-29T23:54:37.631+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:54:37.631+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-29T23:54:37.665+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:54:37.664+0000] {dag.py:3490} INFO - Setting next_dagrun for midterm_dag to None, run_after=None
+[2023-06-29T23:54:37.687+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/midterm_dag.py took 0.157 seconds
+[2023-06-29T23:55:07.932+0000] {processor.py:156} INFO - Started process (PID=943) to work on /opt/airflow/dags/midterm_dag.py
+[2023-06-29T23:55:07.933+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/midterm_dag.py for tasks to queue
+[2023-06-29T23:55:07.934+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:55:07.934+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/midterm_dag.py
+[2023-06-29T23:55:07.949+0000] {logging_mixin.py:149} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:429 UserWarning: The parameter waiter_countdown has been deprecated to standardize naming conventions.  Please use waiter_max_attempts instead.  In the future this will default to None and defer to the waiter's default value.
+[2023-06-29T23:55:07.951+0000] {logging_mixin.py:149} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:429 UserWarning: The parameter waiter_check_interval_seconds has been deprecated to standardize naming conventions.  Please use waiter_delay instead.  In the future this will default to None and defer to the waiter's default value.
+[2023-06-29T23:55:07.953+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:55:07.953+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrCreateJobFlowOperator): create_job>, add_steps already registered for DAG: midterm_dag
+[2023-06-29T23:55:07.954+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:55:07.954+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrAddStepsOperator): add_steps>, create_job already registered for DAG: midterm_dag
+[2023-06-29T23:55:07.958+0000] {processor.py:809} INFO - DAG(s) dict_keys(['midterm_dag']) retrieved from /opt/airflow/dags/midterm_dag.py
+[2023-06-29T23:55:07.994+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:55:07.993+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-29T23:55:08.027+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:55:08.027+0000] {dag.py:3490} INFO - Setting next_dagrun for midterm_dag to None, run_after=None
+[2023-06-29T23:55:08.052+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/midterm_dag.py took 0.124 seconds
+[2023-06-29T23:55:38.299+0000] {processor.py:156} INFO - Started process (PID=999) to work on /opt/airflow/dags/midterm_dag.py
+[2023-06-29T23:55:38.302+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/midterm_dag.py for tasks to queue
+[2023-06-29T23:55:38.303+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:55:38.302+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/midterm_dag.py
+[2023-06-29T23:55:38.319+0000] {logging_mixin.py:149} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:429 UserWarning: The parameter waiter_countdown has been deprecated to standardize naming conventions.  Please use waiter_max_attempts instead.  In the future this will default to None and defer to the waiter's default value.
+[2023-06-29T23:55:38.320+0000] {logging_mixin.py:149} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:429 UserWarning: The parameter waiter_check_interval_seconds has been deprecated to standardize naming conventions.  Please use waiter_delay instead.  In the future this will default to None and defer to the waiter's default value.
+[2023-06-29T23:55:38.324+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:55:38.324+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrCreateJobFlowOperator): create_job>, add_steps already registered for DAG: midterm_dag
+[2023-06-29T23:55:38.324+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:55:38.324+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrAddStepsOperator): add_steps>, create_job already registered for DAG: midterm_dag
+[2023-06-29T23:55:38.330+0000] {processor.py:809} INFO - DAG(s) dict_keys(['midterm_dag']) retrieved from /opt/airflow/dags/midterm_dag.py
+[2023-06-29T23:55:38.371+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:55:38.371+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-29T23:55:38.410+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:55:38.410+0000] {dag.py:3490} INFO - Setting next_dagrun for midterm_dag to None, run_after=None
+[2023-06-29T23:55:38.446+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/midterm_dag.py took 0.151 seconds
+[2023-06-29T23:56:09.077+0000] {processor.py:156} INFO - Started process (PID=1055) to work on /opt/airflow/dags/midterm_dag.py
+[2023-06-29T23:56:09.091+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/midterm_dag.py for tasks to queue
+[2023-06-29T23:56:09.092+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:56:09.092+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/midterm_dag.py
+[2023-06-29T23:56:09.133+0000] {logging_mixin.py:149} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:429 UserWarning: The parameter waiter_countdown has been deprecated to standardize naming conventions.  Please use waiter_max_attempts instead.  In the future this will default to None and defer to the waiter's default value.
+[2023-06-29T23:56:09.136+0000] {logging_mixin.py:149} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:429 UserWarning: The parameter waiter_check_interval_seconds has been deprecated to standardize naming conventions.  Please use waiter_delay instead.  In the future this will default to None and defer to the waiter's default value.
+[2023-06-29T23:56:09.141+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:56:09.141+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrCreateJobFlowOperator): create_job>, add_steps already registered for DAG: midterm_dag
+[2023-06-29T23:56:09.143+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:56:09.143+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrAddStepsOperator): add_steps>, create_job already registered for DAG: midterm_dag
+[2023-06-29T23:56:09.155+0000] {processor.py:809} INFO - DAG(s) dict_keys(['midterm_dag']) retrieved from /opt/airflow/dags/midterm_dag.py
+[2023-06-29T23:56:09.231+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:56:09.230+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-29T23:56:09.318+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:56:09.318+0000] {dag.py:3490} INFO - Setting next_dagrun for midterm_dag to None, run_after=None
+[2023-06-29T23:56:09.426+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/midterm_dag.py took 0.369 seconds
+[2023-06-29T23:56:39.932+0000] {processor.py:156} INFO - Started process (PID=1112) to work on /opt/airflow/dags/midterm_dag.py
+[2023-06-29T23:56:39.949+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/midterm_dag.py for tasks to queue
+[2023-06-29T23:56:39.950+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:56:39.950+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/midterm_dag.py
+[2023-06-29T23:56:39.965+0000] {logging_mixin.py:149} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:429 UserWarning: The parameter waiter_countdown has been deprecated to standardize naming conventions.  Please use waiter_max_attempts instead.  In the future this will default to None and defer to the waiter's default value.
+[2023-06-29T23:56:39.966+0000] {logging_mixin.py:149} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:429 UserWarning: The parameter waiter_check_interval_seconds has been deprecated to standardize naming conventions.  Please use waiter_delay instead.  In the future this will default to None and defer to the waiter's default value.
+[2023-06-29T23:56:39.968+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:56:39.968+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrCreateJobFlowOperator): create_job>, add_steps already registered for DAG: midterm_dag
+[2023-06-29T23:56:39.969+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:56:39.969+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrAddStepsOperator): add_steps>, create_job already registered for DAG: midterm_dag
+[2023-06-29T23:56:39.974+0000] {processor.py:809} INFO - DAG(s) dict_keys(['midterm_dag']) retrieved from /opt/airflow/dags/midterm_dag.py
+[2023-06-29T23:56:40.030+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:56:40.030+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-29T23:56:40.092+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:56:40.092+0000] {dag.py:3490} INFO - Setting next_dagrun for midterm_dag to None, run_after=None
+[2023-06-29T23:56:40.136+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/midterm_dag.py took 0.208 seconds
+[2023-06-29T23:57:10.834+0000] {processor.py:156} INFO - Started process (PID=1169) to work on /opt/airflow/dags/midterm_dag.py
+[2023-06-29T23:57:10.835+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/midterm_dag.py for tasks to queue
+[2023-06-29T23:57:10.836+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:57:10.836+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/midterm_dag.py
+[2023-06-29T23:57:10.857+0000] {logging_mixin.py:149} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:429 UserWarning: The parameter waiter_countdown has been deprecated to standardize naming conventions.  Please use waiter_max_attempts instead.  In the future this will default to None and defer to the waiter's default value.
+[2023-06-29T23:57:10.863+0000] {logging_mixin.py:149} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:429 UserWarning: The parameter waiter_check_interval_seconds has been deprecated to standardize naming conventions.  Please use waiter_delay instead.  In the future this will default to None and defer to the waiter's default value.
+[2023-06-29T23:57:10.865+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:57:10.865+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrCreateJobFlowOperator): create_job>, add_steps already registered for DAG: midterm_dag
+[2023-06-29T23:57:10.866+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:57:10.865+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrAddStepsOperator): add_steps>, create_job already registered for DAG: midterm_dag
+[2023-06-29T23:57:10.873+0000] {processor.py:809} INFO - DAG(s) dict_keys(['midterm_dag']) retrieved from /opt/airflow/dags/midterm_dag.py
+[2023-06-29T23:57:10.933+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:57:10.933+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-29T23:57:10.967+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:57:10.966+0000] {dag.py:3490} INFO - Setting next_dagrun for midterm_dag to None, run_after=None
+[2023-06-29T23:57:10.992+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/midterm_dag.py took 0.170 seconds
+[2023-06-29T23:57:41.158+0000] {processor.py:156} INFO - Started process (PID=1226) to work on /opt/airflow/dags/midterm_dag.py
+[2023-06-29T23:57:41.159+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/midterm_dag.py for tasks to queue
+[2023-06-29T23:57:41.160+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:57:41.160+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/midterm_dag.py
+[2023-06-29T23:57:41.174+0000] {logging_mixin.py:149} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:429 UserWarning: The parameter waiter_countdown has been deprecated to standardize naming conventions.  Please use waiter_max_attempts instead.  In the future this will default to None and defer to the waiter's default value.
+[2023-06-29T23:57:41.176+0000] {logging_mixin.py:149} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:429 UserWarning: The parameter waiter_check_interval_seconds has been deprecated to standardize naming conventions.  Please use waiter_delay instead.  In the future this will default to None and defer to the waiter's default value.
+[2023-06-29T23:57:41.178+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:57:41.178+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrCreateJobFlowOperator): create_job>, add_steps already registered for DAG: midterm_dag
+[2023-06-29T23:57:41.179+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:57:41.179+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrAddStepsOperator): add_steps>, create_job already registered for DAG: midterm_dag
+[2023-06-29T23:57:41.184+0000] {processor.py:809} INFO - DAG(s) dict_keys(['midterm_dag']) retrieved from /opt/airflow/dags/midterm_dag.py
+[2023-06-29T23:57:41.222+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:57:41.222+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-29T23:57:41.287+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:57:41.287+0000] {dag.py:3490} INFO - Setting next_dagrun for midterm_dag to None, run_after=None
+[2023-06-29T23:57:41.314+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/midterm_dag.py took 0.161 seconds
+[2023-06-29T23:58:11.648+0000] {processor.py:156} INFO - Started process (PID=1283) to work on /opt/airflow/dags/midterm_dag.py
+[2023-06-29T23:58:11.649+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/midterm_dag.py for tasks to queue
+[2023-06-29T23:58:11.650+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:58:11.650+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/midterm_dag.py
+[2023-06-29T23:58:11.665+0000] {logging_mixin.py:149} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:429 UserWarning: The parameter waiter_countdown has been deprecated to standardize naming conventions.  Please use waiter_max_attempts instead.  In the future this will default to None and defer to the waiter's default value.
+[2023-06-29T23:58:11.666+0000] {logging_mixin.py:149} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:429 UserWarning: The parameter waiter_check_interval_seconds has been deprecated to standardize naming conventions.  Please use waiter_delay instead.  In the future this will default to None and defer to the waiter's default value.
+[2023-06-29T23:58:11.669+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:58:11.669+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrCreateJobFlowOperator): create_job>, add_steps already registered for DAG: midterm_dag
+[2023-06-29T23:58:11.670+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:58:11.670+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrAddStepsOperator): add_steps>, create_job already registered for DAG: midterm_dag
+[2023-06-29T23:58:11.675+0000] {processor.py:809} INFO - DAG(s) dict_keys(['midterm_dag']) retrieved from /opt/airflow/dags/midterm_dag.py
+[2023-06-29T23:58:11.712+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:58:11.712+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-29T23:58:11.749+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:58:11.749+0000] {dag.py:3490} INFO - Setting next_dagrun for midterm_dag to None, run_after=None
+[2023-06-29T23:58:11.771+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/midterm_dag.py took 0.127 seconds
+[2023-06-29T23:58:42.194+0000] {processor.py:156} INFO - Started process (PID=1340) to work on /opt/airflow/dags/midterm_dag.py
+[2023-06-29T23:58:42.195+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/midterm_dag.py for tasks to queue
+[2023-06-29T23:58:42.196+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:58:42.195+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/midterm_dag.py
+[2023-06-29T23:58:42.210+0000] {logging_mixin.py:149} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:429 UserWarning: The parameter waiter_countdown has been deprecated to standardize naming conventions.  Please use waiter_max_attempts instead.  In the future this will default to None and defer to the waiter's default value.
+[2023-06-29T23:58:42.211+0000] {logging_mixin.py:149} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:429 UserWarning: The parameter waiter_check_interval_seconds has been deprecated to standardize naming conventions.  Please use waiter_delay instead.  In the future this will default to None and defer to the waiter's default value.
+[2023-06-29T23:58:42.213+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:58:42.213+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrCreateJobFlowOperator): create_job>, add_steps already registered for DAG: midterm_dag
+[2023-06-29T23:58:42.214+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:58:42.214+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrAddStepsOperator): add_steps>, create_job already registered for DAG: midterm_dag
+[2023-06-29T23:58:42.218+0000] {processor.py:809} INFO - DAG(s) dict_keys(['midterm_dag']) retrieved from /opt/airflow/dags/midterm_dag.py
+[2023-06-29T23:58:42.253+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:58:42.253+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-29T23:58:42.287+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:58:42.287+0000] {dag.py:3490} INFO - Setting next_dagrun for midterm_dag to None, run_after=None
+[2023-06-29T23:58:42.309+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/midterm_dag.py took 0.120 seconds
+[2023-06-29T23:59:12.592+0000] {processor.py:156} INFO - Started process (PID=1398) to work on /opt/airflow/dags/midterm_dag.py
+[2023-06-29T23:59:12.594+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/midterm_dag.py for tasks to queue
+[2023-06-29T23:59:12.595+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:59:12.595+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/midterm_dag.py
+[2023-06-29T23:59:12.609+0000] {logging_mixin.py:149} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:429 UserWarning: The parameter waiter_countdown has been deprecated to standardize naming conventions.  Please use waiter_max_attempts instead.  In the future this will default to None and defer to the waiter's default value.
+[2023-06-29T23:59:12.611+0000] {logging_mixin.py:149} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:429 UserWarning: The parameter waiter_check_interval_seconds has been deprecated to standardize naming conventions.  Please use waiter_delay instead.  In the future this will default to None and defer to the waiter's default value.
+[2023-06-29T23:59:12.614+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:59:12.613+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrCreateJobFlowOperator): create_job>, add_steps already registered for DAG: midterm_dag
+[2023-06-29T23:59:12.614+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:59:12.614+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrAddStepsOperator): add_steps>, create_job already registered for DAG: midterm_dag
+[2023-06-29T23:59:12.619+0000] {processor.py:809} INFO - DAG(s) dict_keys(['midterm_dag']) retrieved from /opt/airflow/dags/midterm_dag.py
+[2023-06-29T23:59:12.656+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:59:12.656+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-29T23:59:12.691+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:59:12.691+0000] {dag.py:3490} INFO - Setting next_dagrun for midterm_dag to None, run_after=None
+[2023-06-29T23:59:12.715+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/midterm_dag.py took 0.127 seconds
+[2023-06-29T23:59:42.948+0000] {processor.py:156} INFO - Started process (PID=1456) to work on /opt/airflow/dags/midterm_dag.py
+[2023-06-29T23:59:42.949+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/midterm_dag.py for tasks to queue
+[2023-06-29T23:59:42.950+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:59:42.950+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/midterm_dag.py
+[2023-06-29T23:59:42.964+0000] {logging_mixin.py:149} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:429 UserWarning: The parameter waiter_countdown has been deprecated to standardize naming conventions.  Please use waiter_max_attempts instead.  In the future this will default to None and defer to the waiter's default value.
+[2023-06-29T23:59:42.965+0000] {logging_mixin.py:149} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:429 UserWarning: The parameter waiter_check_interval_seconds has been deprecated to standardize naming conventions.  Please use waiter_delay instead.  In the future this will default to None and defer to the waiter's default value.
+[2023-06-29T23:59:42.968+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:59:42.968+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrCreateJobFlowOperator): create_job>, add_steps already registered for DAG: midterm_dag
+[2023-06-29T23:59:42.968+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:59:42.968+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrAddStepsOperator): add_steps>, create_job already registered for DAG: midterm_dag
+[2023-06-29T23:59:42.973+0000] {processor.py:809} INFO - DAG(s) dict_keys(['midterm_dag']) retrieved from /opt/airflow/dags/midterm_dag.py
+[2023-06-29T23:59:43.010+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:59:43.009+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-29T23:59:43.046+0000] {logging_mixin.py:149} INFO - [2023-06-29T23:59:43.046+0000] {dag.py:3490} INFO - Setting next_dagrun for midterm_dag to None, run_after=None
+[2023-06-29T23:59:43.070+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/midterm_dag.py took 0.127 seconds

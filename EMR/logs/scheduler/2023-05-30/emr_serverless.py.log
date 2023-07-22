@@ -1,0 +1,825 @@
+[2023-05-30T10:06:29.579+0000] {processor.py:156} INFO - Started process (PID=33) to work on /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:06:29.580+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/emr_serverless.py for tasks to queue
+[2023-05-30T10:06:29.582+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:06:29.582+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:06:29.599+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:06:29.599+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_1 already registered for DAG: emr_serverless
+[2023-05-30T10:06:29.600+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:06:29.599+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_1>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:06:29.600+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:06:29.600+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_2 already registered for DAG: emr_serverless
+[2023-05-30T10:06:29.601+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:06:29.600+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_2>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:06:29.607+0000] {processor.py:809} INFO - DAG(s) dict_keys(['emr_serverless']) retrieved from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:06:29.667+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:06:29.667+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-30T10:06:29.718+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:06:29.718+0000] {dag.py:3490} INFO - Setting next_dagrun for emr_serverless to None, run_after=None
+[2023-05-30T10:06:29.750+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/emr_serverless.py took 0.182 seconds
+[2023-05-30T10:06:59.815+0000] {processor.py:156} INFO - Started process (PID=90) to work on /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:06:59.816+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/emr_serverless.py for tasks to queue
+[2023-05-30T10:06:59.817+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:06:59.816+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:06:59.824+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:06:59.824+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_1 already registered for DAG: emr_serverless
+[2023-05-30T10:06:59.824+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:06:59.824+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_1>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:06:59.825+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:06:59.824+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_2 already registered for DAG: emr_serverless
+[2023-05-30T10:06:59.825+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:06:59.825+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_2>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:06:59.825+0000] {processor.py:809} INFO - DAG(s) dict_keys(['emr_serverless']) retrieved from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:06:59.852+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:06:59.852+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-30T10:06:59.884+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:06:59.884+0000] {dag.py:3490} INFO - Setting next_dagrun for emr_serverless to None, run_after=None
+[2023-05-30T10:06:59.905+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/emr_serverless.py took 0.094 seconds
+[2023-05-30T10:07:30.516+0000] {processor.py:156} INFO - Started process (PID=148) to work on /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:07:30.518+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/emr_serverless.py for tasks to queue
+[2023-05-30T10:07:30.518+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:07:30.518+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:07:30.526+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:07:30.526+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_1 already registered for DAG: emr_serverless
+[2023-05-30T10:07:30.526+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:07:30.526+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_1>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:07:30.526+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:07:30.526+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_2 already registered for DAG: emr_serverless
+[2023-05-30T10:07:30.527+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:07:30.527+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_2>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:07:30.527+0000] {processor.py:809} INFO - DAG(s) dict_keys(['emr_serverless']) retrieved from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:07:30.555+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:07:30.554+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-30T10:07:30.585+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:07:30.584+0000] {dag.py:3490} INFO - Setting next_dagrun for emr_serverless to None, run_after=None
+[2023-05-30T10:07:30.605+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/emr_serverless.py took 0.093 seconds
+[2023-05-30T10:08:01.042+0000] {processor.py:156} INFO - Started process (PID=205) to work on /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:08:01.043+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/emr_serverless.py for tasks to queue
+[2023-05-30T10:08:01.043+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:08:01.043+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:08:01.051+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:08:01.051+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_1 already registered for DAG: emr_serverless
+[2023-05-30T10:08:01.051+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:08:01.051+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_1>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:08:01.052+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:08:01.051+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_2 already registered for DAG: emr_serverless
+[2023-05-30T10:08:01.052+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:08:01.052+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_2>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:08:01.052+0000] {processor.py:809} INFO - DAG(s) dict_keys(['emr_serverless']) retrieved from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:08:01.079+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:08:01.079+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-30T10:08:01.110+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:08:01.109+0000] {dag.py:3490} INFO - Setting next_dagrun for emr_serverless to None, run_after=None
+[2023-05-30T10:08:01.130+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/emr_serverless.py took 0.092 seconds
+[2023-05-30T10:08:31.525+0000] {processor.py:156} INFO - Started process (PID=263) to work on /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:08:31.526+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/emr_serverless.py for tasks to queue
+[2023-05-30T10:08:31.527+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:08:31.527+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:08:31.538+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:08:31.537+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_1 already registered for DAG: emr_serverless
+[2023-05-30T10:08:31.538+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:08:31.538+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_1>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:08:31.539+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:08:31.538+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_2 already registered for DAG: emr_serverless
+[2023-05-30T10:08:31.539+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:08:31.539+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_2>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:08:31.539+0000] {processor.py:809} INFO - DAG(s) dict_keys(['emr_serverless']) retrieved from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:08:31.571+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:08:31.571+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-30T10:08:31.603+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:08:31.603+0000] {dag.py:3490} INFO - Setting next_dagrun for emr_serverless to None, run_after=None
+[2023-05-30T10:08:31.625+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/emr_serverless.py took 0.104 seconds
+[2023-05-30T10:09:02.035+0000] {processor.py:156} INFO - Started process (PID=320) to work on /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:09:02.037+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/emr_serverless.py for tasks to queue
+[2023-05-30T10:09:02.037+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:09:02.037+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:09:02.045+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:09:02.045+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_1 already registered for DAG: emr_serverless
+[2023-05-30T10:09:02.045+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:09:02.045+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_1>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:09:02.046+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:09:02.045+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_2 already registered for DAG: emr_serverless
+[2023-05-30T10:09:02.046+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:09:02.046+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_2>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:09:02.046+0000] {processor.py:809} INFO - DAG(s) dict_keys(['emr_serverless']) retrieved from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:09:02.074+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:09:02.073+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-30T10:09:02.105+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:09:02.104+0000] {dag.py:3490} INFO - Setting next_dagrun for emr_serverless to None, run_after=None
+[2023-05-30T10:09:02.127+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/emr_serverless.py took 0.095 seconds
+[2023-05-30T10:09:32.651+0000] {processor.py:156} INFO - Started process (PID=377) to work on /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:09:32.652+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/emr_serverless.py for tasks to queue
+[2023-05-30T10:09:32.652+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:09:32.652+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:09:32.660+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:09:32.660+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_1 already registered for DAG: emr_serverless
+[2023-05-30T10:09:32.660+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:09:32.660+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_1>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:09:32.660+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:09:32.660+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_2 already registered for DAG: emr_serverless
+[2023-05-30T10:09:32.660+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:09:32.660+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_2>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:09:32.661+0000] {processor.py:809} INFO - DAG(s) dict_keys(['emr_serverless']) retrieved from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:09:32.688+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:09:32.688+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-30T10:09:32.718+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:09:32.717+0000] {dag.py:3490} INFO - Setting next_dagrun for emr_serverless to None, run_after=None
+[2023-05-30T10:09:32.739+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/emr_serverless.py took 0.092 seconds
+[2023-05-30T10:10:02.847+0000] {processor.py:156} INFO - Started process (PID=434) to work on /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:10:02.849+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/emr_serverless.py for tasks to queue
+[2023-05-30T10:10:02.849+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:10:02.849+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:10:02.857+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:10:02.857+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_1 already registered for DAG: emr_serverless
+[2023-05-30T10:10:02.857+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:10:02.857+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_1>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:10:02.858+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:10:02.858+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_2 already registered for DAG: emr_serverless
+[2023-05-30T10:10:02.858+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:10:02.858+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_2>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:10:02.858+0000] {processor.py:809} INFO - DAG(s) dict_keys(['emr_serverless']) retrieved from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:10:02.889+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:10:02.889+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-30T10:10:02.921+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:10:02.920+0000] {dag.py:3490} INFO - Setting next_dagrun for emr_serverless to None, run_after=None
+[2023-05-30T10:10:02.942+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/emr_serverless.py took 0.099 seconds
+[2023-05-30T10:10:33.432+0000] {processor.py:156} INFO - Started process (PID=491) to work on /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:10:33.433+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/emr_serverless.py for tasks to queue
+[2023-05-30T10:10:33.434+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:10:33.434+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:10:33.441+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:10:33.441+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_1 already registered for DAG: emr_serverless
+[2023-05-30T10:10:33.441+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:10:33.441+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_1>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:10:33.442+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:10:33.442+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_2 already registered for DAG: emr_serverless
+[2023-05-30T10:10:33.442+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:10:33.442+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_2>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:10:33.442+0000] {processor.py:809} INFO - DAG(s) dict_keys(['emr_serverless']) retrieved from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:10:33.470+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:10:33.470+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-30T10:10:33.500+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:10:33.500+0000] {dag.py:3490} INFO - Setting next_dagrun for emr_serverless to None, run_after=None
+[2023-05-30T10:10:33.522+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/emr_serverless.py took 0.093 seconds
+[2023-05-30T10:11:03.700+0000] {processor.py:156} INFO - Started process (PID=548) to work on /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:11:03.701+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/emr_serverless.py for tasks to queue
+[2023-05-30T10:11:03.702+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:11:03.702+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:11:03.710+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:11:03.710+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_1 already registered for DAG: emr_serverless
+[2023-05-30T10:11:03.710+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:11:03.710+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_1>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:11:03.710+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:11:03.710+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_2 already registered for DAG: emr_serverless
+[2023-05-30T10:11:03.710+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:11:03.710+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_2>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:11:03.711+0000] {processor.py:809} INFO - DAG(s) dict_keys(['emr_serverless']) retrieved from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:11:03.739+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:11:03.738+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-30T10:11:03.769+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:11:03.769+0000] {dag.py:3490} INFO - Setting next_dagrun for emr_serverless to None, run_after=None
+[2023-05-30T10:11:03.791+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/emr_serverless.py took 0.094 seconds
+[2023-05-30T10:11:33.977+0000] {processor.py:156} INFO - Started process (PID=604) to work on /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:11:33.978+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/emr_serverless.py for tasks to queue
+[2023-05-30T10:11:33.979+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:11:33.978+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:11:33.986+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:11:33.986+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_1 already registered for DAG: emr_serverless
+[2023-05-30T10:11:33.986+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:11:33.986+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_1>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:11:33.986+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:11:33.986+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_2 already registered for DAG: emr_serverless
+[2023-05-30T10:11:33.987+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:11:33.987+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_2>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:11:33.987+0000] {processor.py:809} INFO - DAG(s) dict_keys(['emr_serverless']) retrieved from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:11:34.014+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:11:34.014+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-30T10:11:34.044+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:11:34.044+0000] {dag.py:3490} INFO - Setting next_dagrun for emr_serverless to None, run_after=None
+[2023-05-30T10:11:34.065+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/emr_serverless.py took 0.092 seconds
+[2023-05-30T10:12:04.201+0000] {processor.py:156} INFO - Started process (PID=661) to work on /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:12:04.202+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/emr_serverless.py for tasks to queue
+[2023-05-30T10:12:04.203+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:12:04.203+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:12:04.211+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:12:04.210+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_1 already registered for DAG: emr_serverless
+[2023-05-30T10:12:04.211+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:12:04.211+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_1>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:12:04.211+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:12:04.211+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_2 already registered for DAG: emr_serverless
+[2023-05-30T10:12:04.211+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:12:04.211+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_2>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:12:04.212+0000] {processor.py:809} INFO - DAG(s) dict_keys(['emr_serverless']) retrieved from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:12:04.240+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:12:04.240+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-30T10:12:04.273+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:12:04.272+0000] {dag.py:3490} INFO - Setting next_dagrun for emr_serverless to None, run_after=None
+[2023-05-30T10:12:04.295+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/emr_serverless.py took 0.098 seconds
+[2023-05-30T10:12:35.021+0000] {processor.py:156} INFO - Started process (PID=717) to work on /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:12:35.021+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/emr_serverless.py for tasks to queue
+[2023-05-30T10:12:35.022+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:12:35.022+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:12:35.030+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:12:35.030+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_1 already registered for DAG: emr_serverless
+[2023-05-30T10:12:35.030+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:12:35.030+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_1>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:12:35.030+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:12:35.030+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_2 already registered for DAG: emr_serverless
+[2023-05-30T10:12:35.031+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:12:35.030+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_2>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:12:35.031+0000] {processor.py:809} INFO - DAG(s) dict_keys(['emr_serverless']) retrieved from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:12:35.060+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:12:35.060+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-30T10:12:35.092+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:12:35.092+0000] {dag.py:3490} INFO - Setting next_dagrun for emr_serverless to None, run_after=None
+[2023-05-30T10:12:35.115+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/emr_serverless.py took 0.098 seconds
+[2023-05-30T10:13:05.802+0000] {processor.py:156} INFO - Started process (PID=774) to work on /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:13:05.804+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/emr_serverless.py for tasks to queue
+[2023-05-30T10:13:05.805+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:13:05.805+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:13:05.819+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:13:05.818+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_1 already registered for DAG: emr_serverless
+[2023-05-30T10:13:05.819+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:13:05.819+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_1>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:13:05.819+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:13:05.819+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_2 already registered for DAG: emr_serverless
+[2023-05-30T10:13:05.819+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:13:05.819+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_2>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:13:05.820+0000] {processor.py:809} INFO - DAG(s) dict_keys(['emr_serverless']) retrieved from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:13:05.847+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:13:05.847+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-30T10:13:05.878+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:13:05.878+0000] {dag.py:3490} INFO - Setting next_dagrun for emr_serverless to None, run_after=None
+[2023-05-30T10:13:05.915+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/emr_serverless.py took 0.130 seconds
+[2023-05-30T10:13:36.144+0000] {processor.py:156} INFO - Started process (PID=831) to work on /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:13:36.145+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/emr_serverless.py for tasks to queue
+[2023-05-30T10:13:36.145+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:13:36.145+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:13:36.153+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:13:36.153+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_1 already registered for DAG: emr_serverless
+[2023-05-30T10:13:36.153+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:13:36.153+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_1>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:13:36.153+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:13:36.153+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_2 already registered for DAG: emr_serverless
+[2023-05-30T10:13:36.154+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:13:36.153+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_2>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:13:36.154+0000] {processor.py:809} INFO - DAG(s) dict_keys(['emr_serverless']) retrieved from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:13:36.181+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:13:36.181+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-30T10:13:36.213+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:13:36.213+0000] {dag.py:3490} INFO - Setting next_dagrun for emr_serverless to None, run_after=None
+[2023-05-30T10:13:36.234+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/emr_serverless.py took 0.097 seconds
+[2023-05-30T10:14:06.479+0000] {processor.py:156} INFO - Started process (PID=888) to work on /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:14:06.480+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/emr_serverless.py for tasks to queue
+[2023-05-30T10:14:06.481+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:14:06.481+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:14:06.488+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:14:06.488+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_1 already registered for DAG: emr_serverless
+[2023-05-30T10:14:06.489+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:14:06.488+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_1>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:14:06.489+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:14:06.489+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_2 already registered for DAG: emr_serverless
+[2023-05-30T10:14:06.489+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:14:06.489+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_2>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:14:06.489+0000] {processor.py:809} INFO - DAG(s) dict_keys(['emr_serverless']) retrieved from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:14:06.516+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:14:06.516+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-30T10:14:06.547+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:14:06.547+0000] {dag.py:3490} INFO - Setting next_dagrun for emr_serverless to None, run_after=None
+[2023-05-30T10:14:06.568+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/emr_serverless.py took 0.093 seconds
+[2023-05-30T10:14:36.651+0000] {processor.py:156} INFO - Started process (PID=945) to work on /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:14:36.652+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/emr_serverless.py for tasks to queue
+[2023-05-30T10:14:36.653+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:14:36.653+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:14:36.660+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:14:36.660+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_1 already registered for DAG: emr_serverless
+[2023-05-30T10:14:36.661+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:14:36.661+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_1>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:14:36.661+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:14:36.661+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_2 already registered for DAG: emr_serverless
+[2023-05-30T10:14:36.661+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:14:36.661+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_2>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:14:36.662+0000] {processor.py:809} INFO - DAG(s) dict_keys(['emr_serverless']) retrieved from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:14:36.689+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:14:36.688+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-30T10:14:36.720+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:14:36.719+0000] {dag.py:3490} INFO - Setting next_dagrun for emr_serverless to None, run_after=None
+[2023-05-30T10:14:36.742+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/emr_serverless.py took 0.094 seconds
+[2023-05-30T10:15:06.872+0000] {processor.py:156} INFO - Started process (PID=1002) to work on /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:15:06.874+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/emr_serverless.py for tasks to queue
+[2023-05-30T10:15:06.874+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:15:06.874+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:15:06.884+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:15:06.884+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_1 already registered for DAG: emr_serverless
+[2023-05-30T10:15:06.884+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:15:06.884+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_1>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:15:06.885+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:15:06.884+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_2 already registered for DAG: emr_serverless
+[2023-05-30T10:15:06.885+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:15:06.885+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_2>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:15:06.885+0000] {processor.py:809} INFO - DAG(s) dict_keys(['emr_serverless']) retrieved from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:15:06.913+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:15:06.912+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-30T10:15:06.944+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:15:06.944+0000] {dag.py:3490} INFO - Setting next_dagrun for emr_serverless to None, run_after=None
+[2023-05-30T10:15:06.965+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/emr_serverless.py took 0.097 seconds
+[2023-05-30T10:15:37.729+0000] {processor.py:156} INFO - Started process (PID=1059) to work on /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:15:37.730+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/emr_serverless.py for tasks to queue
+[2023-05-30T10:15:37.731+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:15:37.731+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:15:37.738+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:15:37.738+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_1 already registered for DAG: emr_serverless
+[2023-05-30T10:15:37.739+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:15:37.739+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_1>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:15:37.739+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:15:37.739+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_2 already registered for DAG: emr_serverless
+[2023-05-30T10:15:37.739+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:15:37.739+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_2>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:15:37.740+0000] {processor.py:809} INFO - DAG(s) dict_keys(['emr_serverless']) retrieved from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:15:37.767+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:15:37.767+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-30T10:15:37.798+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:15:37.798+0000] {dag.py:3490} INFO - Setting next_dagrun for emr_serverless to None, run_after=None
+[2023-05-30T10:15:37.819+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/emr_serverless.py took 0.094 seconds
+[2023-05-30T10:16:08.311+0000] {processor.py:156} INFO - Started process (PID=1116) to work on /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:16:08.312+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/emr_serverless.py for tasks to queue
+[2023-05-30T10:16:08.313+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:16:08.313+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:16:08.321+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:16:08.320+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_1 already registered for DAG: emr_serverless
+[2023-05-30T10:16:08.321+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:16:08.321+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_1>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:16:08.321+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:16:08.321+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_2 already registered for DAG: emr_serverless
+[2023-05-30T10:16:08.321+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:16:08.321+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_2>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:16:08.322+0000] {processor.py:809} INFO - DAG(s) dict_keys(['emr_serverless']) retrieved from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:16:08.349+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:16:08.349+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-30T10:16:08.380+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:16:08.380+0000] {dag.py:3490} INFO - Setting next_dagrun for emr_serverless to None, run_after=None
+[2023-05-30T10:16:08.402+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/emr_serverless.py took 0.094 seconds
+[2023-05-30T10:16:38.673+0000] {processor.py:156} INFO - Started process (PID=1173) to work on /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:16:38.675+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/emr_serverless.py for tasks to queue
+[2023-05-30T10:16:38.675+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:16:38.675+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:16:38.683+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:16:38.683+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_1 already registered for DAG: emr_serverless
+[2023-05-30T10:16:38.683+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:16:38.683+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_1>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:16:38.683+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:16:38.683+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_2 already registered for DAG: emr_serverless
+[2023-05-30T10:16:38.684+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:16:38.684+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_2>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:16:38.684+0000] {processor.py:809} INFO - DAG(s) dict_keys(['emr_serverless']) retrieved from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:16:38.711+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:16:38.711+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-30T10:16:38.742+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:16:38.741+0000] {dag.py:3490} INFO - Setting next_dagrun for emr_serverless to None, run_after=None
+[2023-05-30T10:16:38.763+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/emr_serverless.py took 0.093 seconds
+[2023-05-30T10:17:09.520+0000] {processor.py:156} INFO - Started process (PID=1230) to work on /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:17:09.530+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/emr_serverless.py for tasks to queue
+[2023-05-30T10:17:09.531+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:17:09.531+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:17:09.540+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:17:09.540+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_1 already registered for DAG: emr_serverless
+[2023-05-30T10:17:09.540+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:17:09.540+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_1>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:17:09.540+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:17:09.540+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_2 already registered for DAG: emr_serverless
+[2023-05-30T10:17:09.541+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:17:09.541+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_2>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:17:09.541+0000] {processor.py:809} INFO - DAG(s) dict_keys(['emr_serverless']) retrieved from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:17:09.570+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:17:09.569+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-30T10:17:09.601+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:17:09.600+0000] {dag.py:3490} INFO - Setting next_dagrun for emr_serverless to None, run_after=None
+[2023-05-30T10:17:09.622+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/emr_serverless.py took 0.115 seconds
+[2023-05-30T10:17:40.124+0000] {processor.py:156} INFO - Started process (PID=1287) to work on /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:17:40.124+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/emr_serverless.py for tasks to queue
+[2023-05-30T10:17:40.125+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:17:40.125+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:17:40.133+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:17:40.133+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_1 already registered for DAG: emr_serverless
+[2023-05-30T10:17:40.133+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:17:40.133+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_1>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:17:40.133+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:17:40.133+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_2 already registered for DAG: emr_serverless
+[2023-05-30T10:17:40.133+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:17:40.133+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_2>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:17:40.134+0000] {processor.py:809} INFO - DAG(s) dict_keys(['emr_serverless']) retrieved from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:17:40.162+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:17:40.162+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-30T10:17:40.194+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:17:40.193+0000] {dag.py:3490} INFO - Setting next_dagrun for emr_serverless to None, run_after=None
+[2023-05-30T10:17:40.215+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/emr_serverless.py took 0.095 seconds
+[2023-05-30T10:18:10.752+0000] {processor.py:156} INFO - Started process (PID=1343) to work on /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:18:10.756+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/emr_serverless.py for tasks to queue
+[2023-05-30T10:18:10.757+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:18:10.757+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:18:10.764+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:18:10.764+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_1 already registered for DAG: emr_serverless
+[2023-05-30T10:18:10.764+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:18:10.764+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_1>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:18:10.765+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:18:10.764+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_2 already registered for DAG: emr_serverless
+[2023-05-30T10:18:10.765+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:18:10.765+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_2>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:18:10.765+0000] {processor.py:809} INFO - DAG(s) dict_keys(['emr_serverless']) retrieved from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:18:10.791+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:18:10.791+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-30T10:18:10.822+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:18:10.822+0000] {dag.py:3490} INFO - Setting next_dagrun for emr_serverless to None, run_after=None
+[2023-05-30T10:18:10.844+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/emr_serverless.py took 0.096 seconds
+[2023-05-30T10:18:40.893+0000] {processor.py:156} INFO - Started process (PID=1400) to work on /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:18:40.895+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/emr_serverless.py for tasks to queue
+[2023-05-30T10:18:40.895+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:18:40.895+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:18:40.903+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:18:40.903+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_1 already registered for DAG: emr_serverless
+[2023-05-30T10:18:40.903+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:18:40.903+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_1>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:18:40.903+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:18:40.903+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_2 already registered for DAG: emr_serverless
+[2023-05-30T10:18:40.904+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:18:40.903+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_2>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:18:40.904+0000] {processor.py:809} INFO - DAG(s) dict_keys(['emr_serverless']) retrieved from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:18:40.953+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:18:40.953+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-30T10:18:40.993+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:18:40.993+0000] {dag.py:3490} INFO - Setting next_dagrun for emr_serverless to None, run_after=None
+[2023-05-30T10:18:41.025+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/emr_serverless.py took 0.136 seconds
+[2023-05-30T10:19:11.295+0000] {processor.py:156} INFO - Started process (PID=1457) to work on /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:19:11.295+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/emr_serverless.py for tasks to queue
+[2023-05-30T10:19:11.296+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:19:11.296+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:19:11.304+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:19:11.304+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_1 already registered for DAG: emr_serverless
+[2023-05-30T10:19:11.304+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:19:11.304+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_1>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:19:11.304+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:19:11.304+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_2 already registered for DAG: emr_serverless
+[2023-05-30T10:19:11.305+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:19:11.304+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_2>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:19:11.305+0000] {processor.py:809} INFO - DAG(s) dict_keys(['emr_serverless']) retrieved from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:19:11.338+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:19:11.338+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-30T10:19:11.373+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:19:11.373+0000] {dag.py:3490} INFO - Setting next_dagrun for emr_serverless to None, run_after=None
+[2023-05-30T10:19:11.394+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/emr_serverless.py took 0.104 seconds
+[2023-05-30T10:19:41.428+0000] {processor.py:156} INFO - Started process (PID=1513) to work on /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:19:41.429+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/emr_serverless.py for tasks to queue
+[2023-05-30T10:19:41.430+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:19:41.430+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:19:41.438+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:19:41.438+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_1 already registered for DAG: emr_serverless
+[2023-05-30T10:19:41.438+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:19:41.438+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_1>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:19:41.438+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:19:41.438+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_2 already registered for DAG: emr_serverless
+[2023-05-30T10:19:41.438+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:19:41.438+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_2>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:19:41.439+0000] {processor.py:809} INFO - DAG(s) dict_keys(['emr_serverless']) retrieved from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:19:41.471+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:19:41.471+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-30T10:19:41.501+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:19:41.501+0000] {dag.py:3490} INFO - Setting next_dagrun for emr_serverless to None, run_after=None
+[2023-05-30T10:19:41.521+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/emr_serverless.py took 0.097 seconds
+[2023-05-30T10:20:11.588+0000] {processor.py:156} INFO - Started process (PID=1570) to work on /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:20:11.589+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/emr_serverless.py for tasks to queue
+[2023-05-30T10:20:11.589+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:20:11.589+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:20:11.597+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:20:11.597+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_1 already registered for DAG: emr_serverless
+[2023-05-30T10:20:11.597+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:20:11.597+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_1>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:20:11.597+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:20:11.597+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_2 already registered for DAG: emr_serverless
+[2023-05-30T10:20:11.598+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:20:11.597+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_2>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:20:11.598+0000] {processor.py:809} INFO - DAG(s) dict_keys(['emr_serverless']) retrieved from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:20:11.627+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:20:11.627+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-30T10:20:11.658+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:20:11.658+0000] {dag.py:3490} INFO - Setting next_dagrun for emr_serverless to None, run_after=None
+[2023-05-30T10:20:11.679+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/emr_serverless.py took 0.095 seconds
+[2023-05-30T10:20:41.959+0000] {processor.py:156} INFO - Started process (PID=1627) to work on /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:20:41.960+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/emr_serverless.py for tasks to queue
+[2023-05-30T10:20:41.961+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:20:41.961+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:20:41.969+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:20:41.969+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_1 already registered for DAG: emr_serverless
+[2023-05-30T10:20:41.969+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:20:41.969+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_1>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:20:41.969+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:20:41.969+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_2 already registered for DAG: emr_serverless
+[2023-05-30T10:20:41.969+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:20:41.969+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_2>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:20:41.970+0000] {processor.py:809} INFO - DAG(s) dict_keys(['emr_serverless']) retrieved from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:20:41.998+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:20:41.998+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-30T10:20:42.029+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:20:42.028+0000] {dag.py:3490} INFO - Setting next_dagrun for emr_serverless to None, run_after=None
+[2023-05-30T10:20:42.050+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/emr_serverless.py took 0.095 seconds
+[2023-05-30T10:21:12.265+0000] {processor.py:156} INFO - Started process (PID=1684) to work on /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:21:12.266+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/emr_serverless.py for tasks to queue
+[2023-05-30T10:21:12.266+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:21:12.266+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:21:12.276+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:21:12.276+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_1 already registered for DAG: emr_serverless
+[2023-05-30T10:21:12.276+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:21:12.276+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_1>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:21:12.277+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:21:12.277+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_2 already registered for DAG: emr_serverless
+[2023-05-30T10:21:12.277+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:21:12.277+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_2>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:21:12.277+0000] {processor.py:809} INFO - DAG(s) dict_keys(['emr_serverless']) retrieved from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:21:12.306+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:21:12.305+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-30T10:21:12.336+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:21:12.336+0000] {dag.py:3490} INFO - Setting next_dagrun for emr_serverless to None, run_after=None
+[2023-05-30T10:21:12.357+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/emr_serverless.py took 0.096 seconds
+[2023-05-30T10:21:43.055+0000] {processor.py:156} INFO - Started process (PID=1741) to work on /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:21:43.056+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/emr_serverless.py for tasks to queue
+[2023-05-30T10:21:43.057+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:21:43.057+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:21:43.067+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:21:43.067+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_1 already registered for DAG: emr_serverless
+[2023-05-30T10:21:43.067+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:21:43.067+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_1>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:21:43.067+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:21:43.067+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_2 already registered for DAG: emr_serverless
+[2023-05-30T10:21:43.068+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:21:43.067+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_2>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:21:43.069+0000] {processor.py:809} INFO - DAG(s) dict_keys(['emr_serverless']) retrieved from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:21:43.098+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:21:43.098+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-30T10:21:43.130+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:21:43.130+0000] {dag.py:3490} INFO - Setting next_dagrun for emr_serverless to None, run_after=None
+[2023-05-30T10:21:43.152+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/emr_serverless.py took 0.101 seconds
+[2023-05-30T10:22:13.458+0000] {processor.py:156} INFO - Started process (PID=1799) to work on /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:22:13.459+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/emr_serverless.py for tasks to queue
+[2023-05-30T10:22:13.460+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:22:13.460+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:22:13.468+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:22:13.468+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_1 already registered for DAG: emr_serverless
+[2023-05-30T10:22:13.468+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:22:13.468+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_1>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:22:13.468+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:22:13.468+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_2 already registered for DAG: emr_serverless
+[2023-05-30T10:22:13.469+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:22:13.468+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_2>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:22:13.469+0000] {processor.py:809} INFO - DAG(s) dict_keys(['emr_serverless']) retrieved from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:22:13.502+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:22:13.502+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-30T10:22:13.550+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:22:13.550+0000] {dag.py:3490} INFO - Setting next_dagrun for emr_serverless to None, run_after=None
+[2023-05-30T10:22:13.591+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/emr_serverless.py took 0.136 seconds
+[2023-05-30T10:22:43.936+0000] {processor.py:156} INFO - Started process (PID=1855) to work on /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:22:43.937+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/emr_serverless.py for tasks to queue
+[2023-05-30T10:22:43.938+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:22:43.938+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:22:43.946+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:22:43.945+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_1 already registered for DAG: emr_serverless
+[2023-05-30T10:22:43.946+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:22:43.946+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_1>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:22:43.946+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:22:43.946+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_2 already registered for DAG: emr_serverless
+[2023-05-30T10:22:43.946+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:22:43.946+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_2>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:22:43.947+0000] {processor.py:809} INFO - DAG(s) dict_keys(['emr_serverless']) retrieved from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:22:43.974+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:22:43.974+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-30T10:22:44.005+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:22:44.005+0000] {dag.py:3490} INFO - Setting next_dagrun for emr_serverless to None, run_after=None
+[2023-05-30T10:22:44.026+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/emr_serverless.py took 0.094 seconds
+[2023-05-30T10:23:14.965+0000] {processor.py:156} INFO - Started process (PID=1912) to work on /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:23:14.966+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/emr_serverless.py for tasks to queue
+[2023-05-30T10:23:14.967+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:23:14.966+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:23:14.974+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:23:14.974+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_1 already registered for DAG: emr_serverless
+[2023-05-30T10:23:14.974+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:23:14.974+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_1>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:23:14.974+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:23:14.974+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_2 already registered for DAG: emr_serverless
+[2023-05-30T10:23:14.975+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:23:14.975+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_2>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:23:14.975+0000] {processor.py:809} INFO - DAG(s) dict_keys(['emr_serverless']) retrieved from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:23:15.001+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:23:15.001+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-30T10:23:15.032+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:23:15.032+0000] {dag.py:3490} INFO - Setting next_dagrun for emr_serverless to None, run_after=None
+[2023-05-30T10:23:15.053+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/emr_serverless.py took 0.091 seconds
+[2023-05-30T10:23:45.393+0000] {processor.py:156} INFO - Started process (PID=1969) to work on /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:23:45.395+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/emr_serverless.py for tasks to queue
+[2023-05-30T10:23:45.395+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:23:45.395+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:23:45.403+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:23:45.403+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_1 already registered for DAG: emr_serverless
+[2023-05-30T10:23:45.403+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:23:45.403+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_1>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:23:45.403+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:23:45.403+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_2 already registered for DAG: emr_serverless
+[2023-05-30T10:23:45.404+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:23:45.404+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_2>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:23:45.404+0000] {processor.py:809} INFO - DAG(s) dict_keys(['emr_serverless']) retrieved from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:23:45.433+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:23:45.433+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-30T10:23:45.463+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:23:45.463+0000] {dag.py:3490} INFO - Setting next_dagrun for emr_serverless to None, run_after=None
+[2023-05-30T10:23:45.486+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/emr_serverless.py took 0.096 seconds
+[2023-05-30T10:24:15.936+0000] {processor.py:156} INFO - Started process (PID=2026) to work on /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:24:15.937+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/emr_serverless.py for tasks to queue
+[2023-05-30T10:24:15.937+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:24:15.937+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:24:15.985+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:24:15.985+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_1 already registered for DAG: emr_serverless
+[2023-05-30T10:24:15.985+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:24:15.985+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_1>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:24:15.985+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:24:15.985+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_2 already registered for DAG: emr_serverless
+[2023-05-30T10:24:15.985+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:24:15.985+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_2>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:24:15.986+0000] {processor.py:809} INFO - DAG(s) dict_keys(['emr_serverless']) retrieved from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:24:16.031+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:24:16.031+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-30T10:24:16.062+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:24:16.062+0000] {dag.py:3490} INFO - Setting next_dagrun for emr_serverless to None, run_after=None
+[2023-05-30T10:24:16.092+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/emr_serverless.py took 0.171 seconds
+[2023-05-30T10:24:46.423+0000] {processor.py:156} INFO - Started process (PID=2083) to work on /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:24:46.425+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/emr_serverless.py for tasks to queue
+[2023-05-30T10:24:46.425+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:24:46.425+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:24:46.435+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:24:46.435+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_1 already registered for DAG: emr_serverless
+[2023-05-30T10:24:46.435+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:24:46.435+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_1>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:24:46.435+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:24:46.435+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_2 already registered for DAG: emr_serverless
+[2023-05-30T10:24:46.436+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:24:46.435+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_2>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:24:46.436+0000] {processor.py:809} INFO - DAG(s) dict_keys(['emr_serverless']) retrieved from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:24:46.475+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:24:46.474+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-30T10:24:46.508+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:24:46.508+0000] {dag.py:3490} INFO - Setting next_dagrun for emr_serverless to None, run_after=None
+[2023-05-30T10:24:46.530+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/emr_serverless.py took 0.111 seconds
+[2023-05-30T10:25:16.906+0000] {processor.py:156} INFO - Started process (PID=2147) to work on /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:25:16.907+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/emr_serverless.py for tasks to queue
+[2023-05-30T10:25:16.908+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:25:16.908+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:25:16.916+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:25:16.915+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_1 already registered for DAG: emr_serverless
+[2023-05-30T10:25:16.916+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:25:16.916+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_1>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:25:16.916+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:25:16.916+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_2 already registered for DAG: emr_serverless
+[2023-05-30T10:25:16.916+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:25:16.916+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_2>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:25:16.917+0000] {processor.py:809} INFO - DAG(s) dict_keys(['emr_serverless']) retrieved from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:25:16.946+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:25:16.946+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-30T10:25:16.977+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:25:16.977+0000] {dag.py:3490} INFO - Setting next_dagrun for emr_serverless to None, run_after=None
+[2023-05-30T10:25:16.998+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/emr_serverless.py took 0.095 seconds
+[2023-05-30T10:25:47.526+0000] {processor.py:156} INFO - Started process (PID=2204) to work on /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:25:47.530+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/emr_serverless.py for tasks to queue
+[2023-05-30T10:25:47.530+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:25:47.530+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:25:47.540+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:25:47.539+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_1 already registered for DAG: emr_serverless
+[2023-05-30T10:25:47.540+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:25:47.540+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_1>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:25:47.540+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:25:47.540+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_2 already registered for DAG: emr_serverless
+[2023-05-30T10:25:47.540+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:25:47.540+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_2>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:25:47.541+0000] {processor.py:809} INFO - DAG(s) dict_keys(['emr_serverless']) retrieved from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:25:47.601+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:25:47.601+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-30T10:25:47.664+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:25:47.663+0000] {dag.py:3490} INFO - Setting next_dagrun for emr_serverless to None, run_after=None
+[2023-05-30T10:25:47.719+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/emr_serverless.py took 0.205 seconds
+[2023-05-30T10:26:17.832+0000] {processor.py:156} INFO - Started process (PID=2261) to work on /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:26:17.833+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/emr_serverless.py for tasks to queue
+[2023-05-30T10:26:17.834+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:26:17.834+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:26:17.841+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:26:17.841+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_1 already registered for DAG: emr_serverless
+[2023-05-30T10:26:17.842+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:26:17.842+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_1>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:26:17.842+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:26:17.842+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_2 already registered for DAG: emr_serverless
+[2023-05-30T10:26:17.842+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:26:17.842+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_2>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:26:17.843+0000] {processor.py:809} INFO - DAG(s) dict_keys(['emr_serverless']) retrieved from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:26:17.871+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:26:17.871+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-30T10:26:17.903+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:26:17.903+0000] {dag.py:3490} INFO - Setting next_dagrun for emr_serverless to None, run_after=None
+[2023-05-30T10:26:17.924+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/emr_serverless.py took 0.097 seconds
+[2023-05-30T10:26:48.271+0000] {processor.py:156} INFO - Started process (PID=2319) to work on /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:26:48.272+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/emr_serverless.py for tasks to queue
+[2023-05-30T10:26:48.273+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:26:48.273+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:26:48.281+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:26:48.280+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_1 already registered for DAG: emr_serverless
+[2023-05-30T10:26:48.281+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:26:48.281+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_1>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:26:48.281+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:26:48.281+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_2 already registered for DAG: emr_serverless
+[2023-05-30T10:26:48.281+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:26:48.281+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_2>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:26:48.282+0000] {processor.py:809} INFO - DAG(s) dict_keys(['emr_serverless']) retrieved from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:26:48.316+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:26:48.315+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-30T10:26:48.354+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:26:48.354+0000] {dag.py:3490} INFO - Setting next_dagrun for emr_serverless to None, run_after=None
+[2023-05-30T10:26:48.376+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/emr_serverless.py took 0.109 seconds
+[2023-05-30T10:27:18.597+0000] {processor.py:156} INFO - Started process (PID=2376) to work on /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:27:18.597+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/emr_serverless.py for tasks to queue
+[2023-05-30T10:27:18.598+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:27:18.598+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:27:18.606+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:27:18.605+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_1 already registered for DAG: emr_serverless
+[2023-05-30T10:27:18.606+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:27:18.606+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_1>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:27:18.606+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:27:18.606+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_2 already registered for DAG: emr_serverless
+[2023-05-30T10:27:18.606+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:27:18.606+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_2>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:27:18.607+0000] {processor.py:809} INFO - DAG(s) dict_keys(['emr_serverless']) retrieved from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:27:18.634+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:27:18.634+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-30T10:27:18.665+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:27:18.665+0000] {dag.py:3490} INFO - Setting next_dagrun for emr_serverless to None, run_after=None
+[2023-05-30T10:27:18.685+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/emr_serverless.py took 0.093 seconds
+[2023-05-30T10:27:49.201+0000] {processor.py:156} INFO - Started process (PID=2433) to work on /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:27:49.203+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/emr_serverless.py for tasks to queue
+[2023-05-30T10:27:49.203+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:27:49.203+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:27:49.211+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:27:49.211+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_1 already registered for DAG: emr_serverless
+[2023-05-30T10:27:49.212+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:27:49.212+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_1>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:27:49.212+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:27:49.212+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_2 already registered for DAG: emr_serverless
+[2023-05-30T10:27:49.212+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:27:49.212+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_2>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:27:49.213+0000] {processor.py:809} INFO - DAG(s) dict_keys(['emr_serverless']) retrieved from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:27:49.241+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:27:49.241+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-30T10:27:49.274+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:27:49.274+0000] {dag.py:3490} INFO - Setting next_dagrun for emr_serverless to None, run_after=None
+[2023-05-30T10:27:49.298+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/emr_serverless.py took 0.102 seconds
+[2023-05-30T10:28:19.486+0000] {processor.py:156} INFO - Started process (PID=2490) to work on /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:28:19.487+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/emr_serverless.py for tasks to queue
+[2023-05-30T10:28:19.488+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:28:19.488+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:28:19.496+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:28:19.495+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_1 already registered for DAG: emr_serverless
+[2023-05-30T10:28:19.496+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:28:19.496+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_1>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:28:19.496+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:28:19.496+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_2 already registered for DAG: emr_serverless
+[2023-05-30T10:28:19.496+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:28:19.496+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_2>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:28:19.497+0000] {processor.py:809} INFO - DAG(s) dict_keys(['emr_serverless']) retrieved from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:28:19.525+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:28:19.524+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-30T10:28:19.575+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:28:19.575+0000] {dag.py:3490} INFO - Setting next_dagrun for emr_serverless to None, run_after=None
+[2023-05-30T10:28:19.607+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/emr_serverless.py took 0.124 seconds
+[2023-05-30T10:28:49.779+0000] {processor.py:156} INFO - Started process (PID=2546) to work on /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:28:49.780+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/emr_serverless.py for tasks to queue
+[2023-05-30T10:28:49.781+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:28:49.781+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:28:49.788+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:28:49.788+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_1 already registered for DAG: emr_serverless
+[2023-05-30T10:28:49.789+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:28:49.788+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_1>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:28:49.789+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:28:49.789+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_2 already registered for DAG: emr_serverless
+[2023-05-30T10:28:49.789+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:28:49.789+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_2>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:28:49.789+0000] {processor.py:809} INFO - DAG(s) dict_keys(['emr_serverless']) retrieved from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:28:49.818+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:28:49.818+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-30T10:28:49.849+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:28:49.849+0000] {dag.py:3490} INFO - Setting next_dagrun for emr_serverless to None, run_after=None
+[2023-05-30T10:28:49.871+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/emr_serverless.py took 0.096 seconds
+[2023-05-30T10:29:20.038+0000] {processor.py:156} INFO - Started process (PID=2603) to work on /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:29:20.039+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/emr_serverless.py for tasks to queue
+[2023-05-30T10:29:20.040+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:29:20.040+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:29:20.047+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:29:20.047+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_1 already registered for DAG: emr_serverless
+[2023-05-30T10:29:20.048+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:29:20.048+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_1>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:29:20.048+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:29:20.048+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_2 already registered for DAG: emr_serverless
+[2023-05-30T10:29:20.048+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:29:20.048+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_2>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:29:20.049+0000] {processor.py:809} INFO - DAG(s) dict_keys(['emr_serverless']) retrieved from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:29:20.082+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:29:20.082+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-30T10:29:20.113+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:29:20.113+0000] {dag.py:3490} INFO - Setting next_dagrun for emr_serverless to None, run_after=None
+[2023-05-30T10:29:20.134+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/emr_serverless.py took 0.100 seconds
+[2023-05-30T10:29:50.672+0000] {processor.py:156} INFO - Started process (PID=2659) to work on /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:29:50.673+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/emr_serverless.py for tasks to queue
+[2023-05-30T10:29:50.674+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:29:50.674+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:29:50.682+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:29:50.681+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_1 already registered for DAG: emr_serverless
+[2023-05-30T10:29:50.682+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:29:50.682+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_1>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:29:50.682+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:29:50.682+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_2 already registered for DAG: emr_serverless
+[2023-05-30T10:29:50.682+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:29:50.682+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_2>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:29:50.683+0000] {processor.py:809} INFO - DAG(s) dict_keys(['emr_serverless']) retrieved from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:29:50.711+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:29:50.710+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-30T10:29:50.741+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:29:50.741+0000] {dag.py:3490} INFO - Setting next_dagrun for emr_serverless to None, run_after=None
+[2023-05-30T10:29:50.762+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/emr_serverless.py took 0.094 seconds
+[2023-05-30T10:30:21.348+0000] {processor.py:156} INFO - Started process (PID=2713) to work on /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:30:21.349+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/emr_serverless.py for tasks to queue
+[2023-05-30T10:30:21.350+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:30:21.350+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:30:21.358+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:30:21.357+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_1 already registered for DAG: emr_serverless
+[2023-05-30T10:30:21.358+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:30:21.358+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_1>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:30:21.358+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:30:21.358+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_2 already registered for DAG: emr_serverless
+[2023-05-30T10:30:21.358+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:30:21.358+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_2>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:30:21.359+0000] {processor.py:809} INFO - DAG(s) dict_keys(['emr_serverless']) retrieved from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:30:21.386+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:30:21.386+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-30T10:30:21.418+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:30:21.418+0000] {dag.py:3490} INFO - Setting next_dagrun for emr_serverless to None, run_after=None
+[2023-05-30T10:30:21.439+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/emr_serverless.py took 0.097 seconds
+[2023-05-30T10:30:52.428+0000] {processor.py:156} INFO - Started process (PID=2770) to work on /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:30:52.431+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/emr_serverless.py for tasks to queue
+[2023-05-30T10:30:52.431+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:30:52.431+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:30:52.449+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:30:52.449+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_1 already registered for DAG: emr_serverless
+[2023-05-30T10:30:52.449+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:30:52.449+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_1>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:30:52.449+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:30:52.449+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_2 already registered for DAG: emr_serverless
+[2023-05-30T10:30:52.449+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:30:52.449+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_2>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:30:52.450+0000] {processor.py:809} INFO - DAG(s) dict_keys(['emr_serverless']) retrieved from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:30:52.485+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:30:52.485+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-30T10:30:52.518+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:30:52.517+0000] {dag.py:3490} INFO - Setting next_dagrun for emr_serverless to None, run_after=None
+[2023-05-30T10:30:52.544+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/emr_serverless.py took 0.132 seconds
+[2023-05-30T10:31:22.715+0000] {processor.py:156} INFO - Started process (PID=2827) to work on /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:31:22.716+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/emr_serverless.py for tasks to queue
+[2023-05-30T10:31:22.717+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:31:22.716+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:31:22.724+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:31:22.724+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_1 already registered for DAG: emr_serverless
+[2023-05-30T10:31:22.725+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:31:22.724+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_1>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:31:22.725+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:31:22.725+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_2 already registered for DAG: emr_serverless
+[2023-05-30T10:31:22.725+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:31:22.725+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_2>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:31:22.725+0000] {processor.py:809} INFO - DAG(s) dict_keys(['emr_serverless']) retrieved from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:31:22.753+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:31:22.753+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-30T10:31:22.783+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:31:22.783+0000] {dag.py:3490} INFO - Setting next_dagrun for emr_serverless to None, run_after=None
+[2023-05-30T10:31:22.805+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/emr_serverless.py took 0.094 seconds
+[2023-05-30T10:31:52.966+0000] {processor.py:156} INFO - Started process (PID=2884) to work on /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:31:52.968+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/emr_serverless.py for tasks to queue
+[2023-05-30T10:31:52.969+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:31:52.968+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:31:52.976+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:31:52.976+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_1 already registered for DAG: emr_serverless
+[2023-05-30T10:31:52.977+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:31:52.977+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_1>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:31:52.977+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:31:52.977+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_2 already registered for DAG: emr_serverless
+[2023-05-30T10:31:52.977+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:31:52.977+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_2>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:31:52.978+0000] {processor.py:809} INFO - DAG(s) dict_keys(['emr_serverless']) retrieved from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:31:53.006+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:31:53.006+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-30T10:31:53.038+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:31:53.038+0000] {dag.py:3490} INFO - Setting next_dagrun for emr_serverless to None, run_after=None
+[2023-05-30T10:31:53.060+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/emr_serverless.py took 0.098 seconds
+[2023-05-30T10:32:23.384+0000] {processor.py:156} INFO - Started process (PID=2941) to work on /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:32:23.384+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/emr_serverless.py for tasks to queue
+[2023-05-30T10:32:23.385+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:32:23.385+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:32:23.393+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:32:23.393+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_1 already registered for DAG: emr_serverless
+[2023-05-30T10:32:23.393+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:32:23.393+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_1>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:32:23.393+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:32:23.393+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_2 already registered for DAG: emr_serverless
+[2023-05-30T10:32:23.393+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:32:23.393+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_2>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:32:23.394+0000] {processor.py:809} INFO - DAG(s) dict_keys(['emr_serverless']) retrieved from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:32:23.422+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:32:23.421+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-30T10:32:23.452+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:32:23.452+0000] {dag.py:3490} INFO - Setting next_dagrun for emr_serverless to None, run_after=None
+[2023-05-30T10:32:23.473+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/emr_serverless.py took 0.093 seconds
+[2023-05-30T10:32:53.997+0000] {processor.py:156} INFO - Started process (PID=2998) to work on /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:32:53.999+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/emr_serverless.py for tasks to queue
+[2023-05-30T10:32:53.999+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:32:53.999+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:32:54.007+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:32:54.007+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_1 already registered for DAG: emr_serverless
+[2023-05-30T10:32:54.008+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:32:54.008+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_1>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:32:54.008+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:32:54.008+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_2 already registered for DAG: emr_serverless
+[2023-05-30T10:32:54.008+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:32:54.008+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_2>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:32:54.009+0000] {processor.py:809} INFO - DAG(s) dict_keys(['emr_serverless']) retrieved from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:32:54.037+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:32:54.037+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-30T10:32:54.069+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:32:54.069+0000] {dag.py:3490} INFO - Setting next_dagrun for emr_serverless to None, run_after=None
+[2023-05-30T10:32:54.091+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/emr_serverless.py took 0.097 seconds
+[2023-05-30T10:33:24.340+0000] {processor.py:156} INFO - Started process (PID=3053) to work on /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:33:24.341+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/emr_serverless.py for tasks to queue
+[2023-05-30T10:33:24.341+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:33:24.341+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:33:24.349+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:33:24.349+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_1 already registered for DAG: emr_serverless
+[2023-05-30T10:33:24.349+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:33:24.349+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_1>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:33:24.350+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:33:24.350+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_2 already registered for DAG: emr_serverless
+[2023-05-30T10:33:24.350+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:33:24.350+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_2>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:33:24.350+0000] {processor.py:809} INFO - DAG(s) dict_keys(['emr_serverless']) retrieved from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:33:24.379+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:33:24.379+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-30T10:33:24.410+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:33:24.410+0000] {dag.py:3490} INFO - Setting next_dagrun for emr_serverless to None, run_after=None
+[2023-05-30T10:33:24.432+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/emr_serverless.py took 0.096 seconds
+[2023-05-30T10:33:55.457+0000] {processor.py:156} INFO - Started process (PID=3110) to work on /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:33:55.458+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/emr_serverless.py for tasks to queue
+[2023-05-30T10:33:55.459+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:33:55.459+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:33:55.466+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:33:55.466+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_1 already registered for DAG: emr_serverless
+[2023-05-30T10:33:55.467+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:33:55.467+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_1>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:33:55.467+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:33:55.467+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_2 already registered for DAG: emr_serverless
+[2023-05-30T10:33:55.467+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:33:55.467+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_2>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:33:55.468+0000] {processor.py:809} INFO - DAG(s) dict_keys(['emr_serverless']) retrieved from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:33:55.497+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:33:55.497+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-30T10:33:55.527+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:33:55.527+0000] {dag.py:3490} INFO - Setting next_dagrun for emr_serverless to None, run_after=None
+[2023-05-30T10:33:55.548+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/emr_serverless.py took 0.095 seconds
+[2023-05-30T10:34:26.317+0000] {processor.py:156} INFO - Started process (PID=3167) to work on /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:34:26.318+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/emr_serverless.py for tasks to queue
+[2023-05-30T10:34:26.319+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:34:26.318+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:34:26.326+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:34:26.326+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_1 already registered for DAG: emr_serverless
+[2023-05-30T10:34:26.327+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:34:26.326+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_1>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:34:26.327+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:34:26.327+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_2 already registered for DAG: emr_serverless
+[2023-05-30T10:34:26.327+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:34:26.327+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_2>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:34:26.327+0000] {processor.py:809} INFO - DAG(s) dict_keys(['emr_serverless']) retrieved from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:34:26.356+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:34:26.356+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-30T10:34:26.388+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:34:26.388+0000] {dag.py:3490} INFO - Setting next_dagrun for emr_serverless to None, run_after=None
+[2023-05-30T10:34:26.410+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/emr_serverless.py took 0.097 seconds
+[2023-05-30T10:34:56.699+0000] {processor.py:156} INFO - Started process (PID=3225) to work on /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:34:56.704+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/emr_serverless.py for tasks to queue
+[2023-05-30T10:34:56.704+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:34:56.704+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:34:56.719+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:34:56.719+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_1 already registered for DAG: emr_serverless
+[2023-05-30T10:34:56.719+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:34:56.719+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_1>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:34:56.719+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:34:56.719+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_2 already registered for DAG: emr_serverless
+[2023-05-30T10:34:56.721+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:34:56.720+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_2>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:34:56.721+0000] {processor.py:809} INFO - DAG(s) dict_keys(['emr_serverless']) retrieved from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:34:56.781+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:34:56.781+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-30T10:34:56.832+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:34:56.832+0000] {dag.py:3490} INFO - Setting next_dagrun for emr_serverless to None, run_after=None
+[2023-05-30T10:34:56.869+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/emr_serverless.py took 0.178 seconds
+[2023-05-30T10:35:27.100+0000] {processor.py:156} INFO - Started process (PID=3283) to work on /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:35:27.101+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/emr_serverless.py for tasks to queue
+[2023-05-30T10:35:27.102+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:35:27.102+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:35:27.110+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:35:27.110+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_1 already registered for DAG: emr_serverless
+[2023-05-30T10:35:27.110+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:35:27.110+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_1>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:35:27.110+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:35:27.110+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_2 already registered for DAG: emr_serverless
+[2023-05-30T10:35:27.110+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:35:27.110+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_2>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:35:27.111+0000] {processor.py:809} INFO - DAG(s) dict_keys(['emr_serverless']) retrieved from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:35:27.139+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:35:27.139+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-30T10:35:27.171+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:35:27.170+0000] {dag.py:3490} INFO - Setting next_dagrun for emr_serverless to None, run_after=None
+[2023-05-30T10:35:27.192+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/emr_serverless.py took 0.095 seconds
+[2023-05-30T10:35:57.497+0000] {processor.py:156} INFO - Started process (PID=3340) to work on /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:35:57.498+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/emr_serverless.py for tasks to queue
+[2023-05-30T10:35:57.499+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:35:57.498+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:35:57.506+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:35:57.506+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_1 already registered for DAG: emr_serverless
+[2023-05-30T10:35:57.507+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:35:57.507+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_1>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:35:57.507+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:35:57.507+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_2 already registered for DAG: emr_serverless
+[2023-05-30T10:35:57.507+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:35:57.507+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_2>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:35:57.508+0000] {processor.py:809} INFO - DAG(s) dict_keys(['emr_serverless']) retrieved from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:35:57.537+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:35:57.537+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-30T10:35:57.568+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:35:57.568+0000] {dag.py:3490} INFO - Setting next_dagrun for emr_serverless to None, run_after=None
+[2023-05-30T10:35:57.589+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/emr_serverless.py took 0.096 seconds
+[2023-05-30T10:36:27.910+0000] {processor.py:156} INFO - Started process (PID=3397) to work on /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:36:27.911+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/emr_serverless.py for tasks to queue
+[2023-05-30T10:36:27.912+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:36:27.912+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:36:27.919+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:36:27.919+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_1 already registered for DAG: emr_serverless
+[2023-05-30T10:36:27.920+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:36:27.920+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_1>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:36:27.920+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:36:27.920+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_2 already registered for DAG: emr_serverless
+[2023-05-30T10:36:27.920+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:36:27.920+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_2>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:36:27.921+0000] {processor.py:809} INFO - DAG(s) dict_keys(['emr_serverless']) retrieved from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:36:27.949+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:36:27.949+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-30T10:36:27.981+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:36:27.980+0000] {dag.py:3490} INFO - Setting next_dagrun for emr_serverless to None, run_after=None
+[2023-05-30T10:36:28.002+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/emr_serverless.py took 0.096 seconds
+[2023-05-30T10:36:58.476+0000] {processor.py:156} INFO - Started process (PID=3455) to work on /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:36:58.477+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/emr_serverless.py for tasks to queue
+[2023-05-30T10:36:58.478+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:36:58.477+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:36:58.485+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:36:58.485+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_1 already registered for DAG: emr_serverless
+[2023-05-30T10:36:58.486+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:36:58.485+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_1>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:36:58.486+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:36:58.486+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_2 already registered for DAG: emr_serverless
+[2023-05-30T10:36:58.486+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:36:58.486+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_2>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:36:58.487+0000] {processor.py:809} INFO - DAG(s) dict_keys(['emr_serverless']) retrieved from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:36:58.513+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:36:58.513+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-30T10:36:58.545+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:36:58.545+0000] {dag.py:3490} INFO - Setting next_dagrun for emr_serverless to None, run_after=None
+[2023-05-30T10:36:58.566+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/emr_serverless.py took 0.095 seconds
+[2023-05-30T10:37:28.940+0000] {processor.py:156} INFO - Started process (PID=3512) to work on /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:37:28.941+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/emr_serverless.py for tasks to queue
+[2023-05-30T10:37:28.942+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:37:28.942+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:37:28.950+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:37:28.950+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_1 already registered for DAG: emr_serverless
+[2023-05-30T10:37:28.950+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:37:28.950+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_1>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:37:28.950+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:37:28.950+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_2 already registered for DAG: emr_serverless
+[2023-05-30T10:37:28.951+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:37:28.950+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_2>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:37:28.951+0000] {processor.py:809} INFO - DAG(s) dict_keys(['emr_serverless']) retrieved from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:37:28.979+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:37:28.978+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-30T10:37:29.009+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:37:29.009+0000] {dag.py:3490} INFO - Setting next_dagrun for emr_serverless to None, run_after=None
+[2023-05-30T10:37:29.030+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/emr_serverless.py took 0.094 seconds
+[2023-05-30T10:37:59.211+0000] {processor.py:156} INFO - Started process (PID=3569) to work on /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:37:59.212+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/emr_serverless.py for tasks to queue
+[2023-05-30T10:37:59.212+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:37:59.212+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:37:59.223+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:37:59.223+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_1 already registered for DAG: emr_serverless
+[2023-05-30T10:37:59.223+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:37:59.223+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_1>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:37:59.224+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:37:59.223+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_2 already registered for DAG: emr_serverless
+[2023-05-30T10:37:59.232+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:37:59.232+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_2>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:37:59.232+0000] {processor.py:809} INFO - DAG(s) dict_keys(['emr_serverless']) retrieved from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:37:59.283+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:37:59.283+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-30T10:37:59.338+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:37:59.338+0000] {dag.py:3490} INFO - Setting next_dagrun for emr_serverless to None, run_after=None
+[2023-05-30T10:37:59.377+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/emr_serverless.py took 0.174 seconds
+[2023-05-30T10:38:29.645+0000] {processor.py:156} INFO - Started process (PID=3627) to work on /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:38:29.646+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/emr_serverless.py for tasks to queue
+[2023-05-30T10:38:29.647+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:38:29.647+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:38:29.655+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:38:29.655+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_1 already registered for DAG: emr_serverless
+[2023-05-30T10:38:29.655+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:38:29.655+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_1>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:38:29.655+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:38:29.655+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_2 already registered for DAG: emr_serverless
+[2023-05-30T10:38:29.655+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:38:29.655+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_2>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:38:29.656+0000] {processor.py:809} INFO - DAG(s) dict_keys(['emr_serverless']) retrieved from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:38:29.684+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:38:29.684+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-30T10:38:29.716+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:38:29.716+0000] {dag.py:3490} INFO - Setting next_dagrun for emr_serverless to None, run_after=None
+[2023-05-30T10:38:29.737+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/emr_serverless.py took 0.096 seconds
+[2023-05-30T10:39:00.192+0000] {processor.py:156} INFO - Started process (PID=3684) to work on /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:39:00.194+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/emr_serverless.py for tasks to queue
+[2023-05-30T10:39:00.195+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:39:00.194+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:39:00.203+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:39:00.202+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_1 already registered for DAG: emr_serverless
+[2023-05-30T10:39:00.203+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:39:00.203+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_1>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:39:00.203+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:39:00.203+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_2 already registered for DAG: emr_serverless
+[2023-05-30T10:39:00.203+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:39:00.203+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_2>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:39:00.204+0000] {processor.py:809} INFO - DAG(s) dict_keys(['emr_serverless']) retrieved from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:39:00.233+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:39:00.232+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-30T10:39:00.264+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:39:00.264+0000] {dag.py:3490} INFO - Setting next_dagrun for emr_serverless to None, run_after=None
+[2023-05-30T10:39:00.287+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/emr_serverless.py took 0.098 seconds
+[2023-05-30T10:39:30.378+0000] {processor.py:156} INFO - Started process (PID=3742) to work on /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:39:30.380+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/emr_serverless.py for tasks to queue
+[2023-05-30T10:39:30.381+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:39:30.380+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:39:30.388+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:39:30.388+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_1 already registered for DAG: emr_serverless
+[2023-05-30T10:39:30.389+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:39:30.389+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_1>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:39:30.389+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:39:30.389+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_2 already registered for DAG: emr_serverless
+[2023-05-30T10:39:30.389+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:39:30.389+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_2>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:39:30.390+0000] {processor.py:809} INFO - DAG(s) dict_keys(['emr_serverless']) retrieved from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:39:30.418+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:39:30.417+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-30T10:39:30.449+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:39:30.449+0000] {dag.py:3490} INFO - Setting next_dagrun for emr_serverless to None, run_after=None
+[2023-05-30T10:39:30.470+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/emr_serverless.py took 0.095 seconds
+[2023-05-30T10:40:00.965+0000] {processor.py:156} INFO - Started process (PID=3800) to work on /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:40:00.966+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/emr_serverless.py for tasks to queue
+[2023-05-30T10:40:00.967+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:40:00.967+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:40:00.974+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:40:00.974+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_1 already registered for DAG: emr_serverless
+[2023-05-30T10:40:00.975+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:40:00.975+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_1>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:40:00.975+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:40:00.975+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_2 already registered for DAG: emr_serverless
+[2023-05-30T10:40:00.975+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:40:00.975+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_2>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:40:00.976+0000] {processor.py:809} INFO - DAG(s) dict_keys(['emr_serverless']) retrieved from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:40:01.003+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:40:01.003+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-30T10:40:01.036+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:40:01.036+0000] {dag.py:3490} INFO - Setting next_dagrun for emr_serverless to None, run_after=None
+[2023-05-30T10:40:01.057+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/emr_serverless.py took 0.098 seconds
+[2023-05-30T10:40:31.352+0000] {processor.py:156} INFO - Started process (PID=3857) to work on /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:40:31.353+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/emr_serverless.py for tasks to queue
+[2023-05-30T10:40:31.354+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:40:31.354+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:40:31.362+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:40:31.362+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_1 already registered for DAG: emr_serverless
+[2023-05-30T10:40:31.362+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:40:31.362+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_1>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:40:31.362+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:40:31.362+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_2 already registered for DAG: emr_serverless
+[2023-05-30T10:40:31.362+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:40:31.362+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_2>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:40:31.363+0000] {processor.py:809} INFO - DAG(s) dict_keys(['emr_serverless']) retrieved from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:40:31.391+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:40:31.391+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-30T10:40:31.422+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:40:31.422+0000] {dag.py:3490} INFO - Setting next_dagrun for emr_serverless to None, run_after=None
+[2023-05-30T10:40:31.443+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/emr_serverless.py took 0.096 seconds
+[2023-05-30T10:41:01.773+0000] {processor.py:156} INFO - Started process (PID=3914) to work on /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:41:01.773+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/emr_serverless.py for tasks to queue
+[2023-05-30T10:41:01.774+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:41:01.774+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:41:01.782+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:41:01.782+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_1 already registered for DAG: emr_serverless
+[2023-05-30T10:41:01.782+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:41:01.782+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_1>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:41:01.783+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:41:01.783+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_2 already registered for DAG: emr_serverless
+[2023-05-30T10:41:01.783+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:41:01.783+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_2>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:41:01.783+0000] {processor.py:809} INFO - DAG(s) dict_keys(['emr_serverless']) retrieved from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:41:01.812+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:41:01.812+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-30T10:41:01.844+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:41:01.844+0000] {dag.py:3490} INFO - Setting next_dagrun for emr_serverless to None, run_after=None
+[2023-05-30T10:41:01.866+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/emr_serverless.py took 0.098 seconds
+[2023-05-30T10:48:29.073+0000] {processor.py:156} INFO - Started process (PID=32) to work on /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:48:29.075+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/emr_serverless.py for tasks to queue
+[2023-05-30T10:48:29.076+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:48:29.076+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:48:29.084+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:48:29.084+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_1 already registered for DAG: emr_serverless
+[2023-05-30T10:48:29.085+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:48:29.085+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_1>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:48:29.085+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:48:29.085+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_2 already registered for DAG: emr_serverless
+[2023-05-30T10:48:29.085+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:48:29.085+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_2>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:48:29.089+0000] {processor.py:809} INFO - DAG(s) dict_keys(['emr_serverless']) retrieved from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:48:34.128+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:48:34.128+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-30T10:48:34.181+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:48:34.181+0000] {dag.py:3490} INFO - Setting next_dagrun for emr_serverless to None, run_after=None
+[2023-05-30T10:48:34.224+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/emr_serverless.py took 5.155 seconds
+[2023-05-30T10:49:04.584+0000] {processor.py:156} INFO - Started process (PID=110) to work on /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:49:04.585+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/emr_serverless.py for tasks to queue
+[2023-05-30T10:49:04.586+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:49:04.586+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:49:04.594+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:49:04.594+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_1 already registered for DAG: emr_serverless
+[2023-05-30T10:49:04.594+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:49:04.594+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_1>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:49:04.594+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:49:04.594+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_2 already registered for DAG: emr_serverless
+[2023-05-30T10:49:04.595+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:49:04.595+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_2>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:49:04.595+0000] {processor.py:809} INFO - DAG(s) dict_keys(['emr_serverless']) retrieved from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:49:04.626+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:49:04.625+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-30T10:49:04.658+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:49:04.658+0000] {dag.py:3490} INFO - Setting next_dagrun for emr_serverless to None, run_after=None
+[2023-05-30T10:49:04.681+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/emr_serverless.py took 0.101 seconds
+[2023-05-30T10:49:34.768+0000] {processor.py:156} INFO - Started process (PID=168) to work on /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:49:34.769+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/emr_serverless.py for tasks to queue
+[2023-05-30T10:49:34.770+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:49:34.770+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:49:34.778+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:49:34.778+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_1 already registered for DAG: emr_serverless
+[2023-05-30T10:49:34.778+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:49:34.778+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_1>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:49:34.778+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:49:34.778+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_2 already registered for DAG: emr_serverless
+[2023-05-30T10:49:34.779+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:49:34.779+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_2>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:49:34.779+0000] {processor.py:809} INFO - DAG(s) dict_keys(['emr_serverless']) retrieved from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:49:34.809+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:49:34.809+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-30T10:49:34.839+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:49:34.839+0000] {dag.py:3490} INFO - Setting next_dagrun for emr_serverless to None, run_after=None
+[2023-05-30T10:49:34.860+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/emr_serverless.py took 0.096 seconds
+[2023-05-30T10:50:04.883+0000] {processor.py:156} INFO - Started process (PID=225) to work on /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:50:04.885+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/emr_serverless.py for tasks to queue
+[2023-05-30T10:50:04.885+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:50:04.885+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:50:04.895+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:50:04.895+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_1 already registered for DAG: emr_serverless
+[2023-05-30T10:50:04.895+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:50:04.895+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_1>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:50:04.895+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:50:04.895+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_2 already registered for DAG: emr_serverless
+[2023-05-30T10:50:04.895+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:50:04.895+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_2>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:50:04.896+0000] {processor.py:809} INFO - DAG(s) dict_keys(['emr_serverless']) retrieved from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:50:04.925+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:50:04.925+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-30T10:50:04.958+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:50:04.958+0000] {dag.py:3490} INFO - Setting next_dagrun for emr_serverless to None, run_after=None
+[2023-05-30T10:50:04.980+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/emr_serverless.py took 0.102 seconds
+[2023-05-30T10:50:35.507+0000] {processor.py:156} INFO - Started process (PID=276) to work on /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:50:35.508+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/emr_serverless.py for tasks to queue
+[2023-05-30T10:50:35.508+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:50:35.508+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:50:35.518+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:50:35.518+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_1 already registered for DAG: emr_serverless
+[2023-05-30T10:50:35.519+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:50:35.518+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_1>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:50:35.519+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:50:35.519+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_2 already registered for DAG: emr_serverless
+[2023-05-30T10:50:35.519+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:50:35.519+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_2>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:50:35.520+0000] {processor.py:809} INFO - DAG(s) dict_keys(['emr_serverless']) retrieved from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:50:35.552+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:50:35.552+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-30T10:50:35.586+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:50:35.586+0000] {dag.py:3490} INFO - Setting next_dagrun for emr_serverless to None, run_after=None
+[2023-05-30T10:50:35.607+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/emr_serverless.py took 0.104 seconds
+[2023-05-30T10:51:05.740+0000] {processor.py:156} INFO - Started process (PID=334) to work on /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:51:05.741+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/emr_serverless.py for tasks to queue
+[2023-05-30T10:51:05.742+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:51:05.741+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:51:05.749+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:51:05.749+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_1 already registered for DAG: emr_serverless
+[2023-05-30T10:51:05.750+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:51:05.750+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_1>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:51:05.750+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:51:05.750+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessCreateApplicationOperator): create_spark_app>, start_job_2 already registered for DAG: emr_serverless
+[2023-05-30T10:51:05.750+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:51:05.750+0000] {taskmixin.py:211} WARNING - Dependency <Task(EmrServerlessStartJobOperator): start_job_2>, create_spark_app already registered for DAG: emr_serverless
+[2023-05-30T10:51:05.751+0000] {processor.py:809} INFO - DAG(s) dict_keys(['emr_serverless']) retrieved from /opt/airflow/dags/emr_serverless.py
+[2023-05-30T10:51:05.778+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:51:05.778+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-30T10:51:05.809+0000] {logging_mixin.py:149} INFO - [2023-05-30T10:51:05.809+0000] {dag.py:3490} INFO - Setting next_dagrun for emr_serverless to None, run_after=None
+[2023-05-30T10:51:05.834+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/emr_serverless.py took 0.098 seconds
