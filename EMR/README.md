@@ -40,3 +40,6 @@ be grouped by each week, each store, each product to calculate the following met
     - no Stock Instances: Calculate then how many times of out_of_Stock_Flg in a week
     - how many weeks the on hand stock can supply: (stock_on_hand_qty at the end of the week) / sum(sales_qty)
     *(Low Stock_flg = if today's stock_on_hand_qty<sales_qty , then low_stock_flg=1, otherwise =0) *
+
+
+![Architecture](https://github.com/caguoji/DE_Projects/assets/11283694/0ea384bb-e0f6-41ce-989c-a69a9ef552e7)
