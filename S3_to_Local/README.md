@@ -1,4 +1,4 @@
-## Use AWS lambda function to trigger Airflow RESTAPI and move files from S3 bucket to local drive
+## Use AWS lambda function to call Airflow RESTAPI and move files from S3 bucket to local drive
 
 ### Steps
 1. Set up EC2 instance.
